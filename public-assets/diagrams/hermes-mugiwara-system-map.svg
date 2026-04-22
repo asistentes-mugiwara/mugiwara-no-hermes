@@ -1,0 +1,116 @@
+<svg width="1600" height="980" viewBox="0 0 1600 980" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.5"/>
+    </pattern>
+    <marker id="arrow-cyan" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#22d3ee"/>
+    </marker>
+    <marker id="arrow-green" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#34d399"/>
+    </marker>
+    <marker id="arrow-violet" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#a78bfa"/>
+    </marker>
+    <marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#fbbf24"/>
+    </marker>
+  </defs>
+  <rect width="1600" height="980" fill="#020617"/>
+  <rect width="1600" height="980" fill="url(#grid)"/>
+
+  <text x="70" y="72" fill="#e2e8f0" font-size="28" font-family="JetBrains Mono, monospace" font-weight="700">Hermes + Mugiwara — system vs showcase</text>
+  <text x="70" y="102" fill="#94a3b8" font-size="13" font-family="JetBrains Mono, monospace">Mapa público saneado del sistema desplegado en el mini PC y su proyección en el repo escaparate</text>
+
+  <rect x="55" y="140" width="1000" height="620" rx="18" fill="rgba(120,53,15,0.08)" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="8 4"/>
+  <text x="75" y="172" fill="#fbbf24" font-size="16" font-family="JetBrains Mono, monospace" font-weight="700">Mini PC — sistema vivo</text>
+
+  <rect x="1095" y="140" width="450" height="620" rx="18" fill="rgba(120,53,15,0.08)" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="8 4"/>
+  <text x="1115" y="172" fill="#fbbf24" font-size="16" font-family="JetBrains Mono, monospace" font-weight="700">Escaparate público</text>
+
+  <line x1="260" y1="330" x2="470" y2="330" stroke="#22d3ee" stroke-width="2.5" marker-end="url(#arrow-cyan)"/>
+  <line x1="260" y1="430" x2="470" y2="430" stroke="#22d3ee" stroke-width="2.5" marker-end="url(#arrow-cyan)"/>
+  <line x1="260" y1="530" x2="470" y2="530" stroke="#22d3ee" stroke-width="2.5" marker-end="url(#arrow-cyan)"/>
+  <line x1="600" y1="335" x2="600" y2="525" stroke="#34d399" stroke-width="2.5" marker-end="url(#arrow-green)"/>
+  <line x1="730" y1="530" x2="840" y2="530" stroke="#a78bfa" stroke-width="2.5" marker-end="url(#arrow-violet)"/>
+  <line x1="730" y1="430" x2="840" y2="430" stroke="#a78bfa" stroke-width="2.5" marker-end="url(#arrow-violet)"/>
+  <line x1="930" y1="350" x2="930" y2="610" stroke="#34d399" stroke-width="2.5" marker-end="url(#arrow-green)"/>
+  <line x1="1035" y1="450" x2="1145" y2="450" stroke="#fbbf24" stroke-width="2.5" marker-end="url(#arrow-amber)"/>
+  <line x1="1035" y1="560" x2="1145" y2="560" stroke="#fbbf24" stroke-width="2.5" marker-end="url(#arrow-amber)"/>
+
+  <g>
+    <rect x="95" y="260" width="165" height="330" rx="12" fill="rgba(8,51,68,0.16)" stroke="#22d3ee" stroke-width="1.5"/>
+    <text x="118" y="290" fill="#22d3ee" font-size="14" font-family="JetBrains Mono, monospace" font-weight="700">Perfiles activos</text>
+    <rect x="115" y="310" width="125" height="48" rx="8" fill="#0f172a" stroke="#22d3ee"/>
+    <text x="142" y="338" fill="#e2e8f0" font-size="13" font-family="JetBrains Mono, monospace">Luffy</text>
+    <text x="126" y="352" fill="#94a3b8" font-size="9" font-family="JetBrains Mono, monospace">entrada y coordinación</text>
+    <rect x="115" y="410" width="125" height="48" rx="8" fill="#0f172a" stroke="#22d3ee"/>
+    <text x="145" y="438" fill="#e2e8f0" font-size="13" font-family="JetBrains Mono, monospace">Zoro</text>
+    <text x="124" y="452" fill="#94a3b8" font-size="9" font-family="JetBrains Mono, monospace">software y verify</text>
+    <rect x="115" y="510" width="125" height="48" rx="8" fill="#0f172a" stroke="#22d3ee"/>
+    <text x="138" y="538" fill="#e2e8f0" font-size="13" font-family="JetBrains Mono, monospace">Franky</text>
+    <text x="121" y="552" fill="#94a3b8" font-size="9" font-family="JetBrains Mono, monospace">ops, backups, health</text>
+  </g>
+
+  <g>
+    <rect x="470" y="270" width="260" height="300" rx="12" fill="rgba(6,78,59,0.28)" stroke="#34d399" stroke-width="1.5"/>
+    <text x="495" y="302" fill="#34d399" font-size="14" font-family="JetBrains Mono, monospace" font-weight="700">Hermes runtime</text>
+    <text x="495" y="324" fill="#94a3b8" font-size="10" font-family="JetBrains Mono, monospace">perfiles • herramientas • skills • cron</text>
+    <rect x="495" y="350" width="210" height="52" rx="8" fill="#0f172a" stroke="#34d399"/>
+    <text x="520" y="378" fill="#e2e8f0" font-size="12" font-family="JetBrains Mono, monospace">Gateways persistentes</text>
+    <text x="513" y="392" fill="#94a3b8" font-size="9" font-family="JetBrains Mono, monospace">luffy • zoro • franky</text>
+    <rect x="495" y="420" width="210" height="52" rx="8" fill="#0f172a" stroke="#34d399"/>
+    <text x="540" y="448" fill="#e2e8f0" font-size="12" font-family="JetBrains Mono, monospace">Hermes cron</text>
+    <text x="504" y="462" fill="#94a3b8" font-size="9" font-family="JetBrains Mono, monospace">vault-sync • backup • healthcheck • showcase-nightly</text>
+    <rect x="495" y="490" width="210" height="52" rx="8" fill="#0f172a" stroke="#34d399"/>
+    <text x="505" y="518" fill="#e2e8f0" font-size="12" font-family="JetBrains Mono, monospace">Policies y canon operativo</text>
+    <text x="520" y="532" fill="#94a3b8" font-size="9" font-family="JetBrains Mono, monospace">AGENTS • SOUL • skills-source</text>
+  </g>
+
+  <g>
+    <rect x="840" y="315" width="195" height="92" rx="12" fill="rgba(76,29,149,0.28)" stroke="#a78bfa" stroke-width="1.5"/>
+    <text x="866" y="347" fill="#a78bfa" font-size="14" font-family="JetBrains Mono, monospace" font-weight="700">Memoria</text>
+    <text x="866" y="372" fill="#e2e8f0" font-size="11" font-family="JetBrains Mono, monospace">builtin + Honcho</text>
+    <text x="866" y="390" fill="#94a3b8" font-size="9" font-family="JetBrains Mono, monospace">compacta + relacional compartida</text>
+
+    <rect x="840" y="425" width="195" height="92" rx="12" fill="rgba(76,29,149,0.28)" stroke="#a78bfa" stroke-width="1.5"/>
+    <text x="866" y="457" fill="#a78bfa" font-size="14" font-family="JetBrains Mono, monospace" font-weight="700">Canon y memoria viva</text>
+    <text x="866" y="482" fill="#e2e8f0" font-size="11" font-family="JetBrains Mono, monospace">vault + Engram</text>
+    <text x="866" y="500" fill="#94a3b8" font-size="9" font-family="JetBrains Mono, monospace">canon curado + contexto técnico</text>
+  </g>
+
+  <g>
+    <rect x="720" y="600" width="315" height="115" rx="12" fill="rgba(6,78,59,0.22)" stroke="#34d399" stroke-width="1.5"/>
+    <text x="744" y="632" fill="#34d399" font-size="14" font-family="JetBrains Mono, monospace" font-weight="700">Safeguards operativos</text>
+    <text x="744" y="658" fill="#e2e8f0" font-size="11" font-family="JetBrains Mono, monospace">healthchecks • backups • checksum • offsite</text>
+    <text x="744" y="678" fill="#94a3b8" font-size="9" font-family="JetBrains Mono, monospace">deny-by-default • verificación • continuidad</text>
+  </g>
+
+  <g>
+    <rect x="1145" y="250" width="350" height="160" rx="12" fill="rgba(8,51,68,0.18)" stroke="#22d3ee" stroke-width="1.5"/>
+    <text x="1170" y="282" fill="#22d3ee" font-size="14" font-family="JetBrains Mono, monospace" font-weight="700">README + docs públicas</text>
+    <text x="1170" y="308" fill="#e2e8f0" font-size="11" font-family="JetBrains Mono, monospace">tripulación • stack • arquitectura • configuración</text>
+    <text x="1170" y="326" fill="#e2e8f0" font-size="11" font-family="JetBrains Mono, monospace">workflow • deployment status • safeguards</text>
+    <text x="1170" y="350" fill="#94a3b8" font-size="9" font-family="JetBrains Mono, monospace">versión pública curada del sistema</text>
+    <text x="1170" y="382" fill="#f8fafc" font-size="10" font-family="JetBrains Mono, monospace">Qué sí entra</text>
+    <text x="1170" y="398" fill="#94a3b8" font-size="9" font-family="JetBrains Mono, monospace">alto nivel • madurez • contratos • ejemplos dummy</text>
+  </g>
+
+  <g>
+    <rect x="1145" y="470" width="350" height="150" rx="12" fill="rgba(136,19,55,0.20)" stroke="#fb7185" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <text x="1170" y="502" fill="#fb7185" font-size="14" font-family="JetBrains Mono, monospace" font-weight="700">Frontera deny-by-default</text>
+    <text x="1170" y="530" fill="#e2e8f0" font-size="11" font-family="JetBrains Mono, monospace">No se publica:</text>
+    <text x="1170" y="552" fill="#94a3b8" font-size="9" font-family="JetBrains Mono, monospace">.env • auth • wiring sensible • logs • sesiones</text>
+    <text x="1170" y="570" fill="#94a3b8" font-size="9" font-family="JetBrains Mono, monospace">topología explotable • prompts internos completos</text>
+    <text x="1170" y="598" fill="#f8fafc" font-size="10" font-family="JetBrains Mono, monospace">Objetivo</text>
+    <text x="1170" y="614" fill="#94a3b8" font-size="9" font-family="JetBrains Mono, monospace">enseñar el sistema sin regalar la sala de máquinas</text>
+  </g>
+
+  <g>
+    <rect x="70" y="810" width="1470" height="110" rx="12" fill="rgba(15,23,42,0.88)" stroke="#334155" stroke-width="1.2"/>
+    <text x="95" y="842" fill="#e2e8f0" font-size="14" font-family="JetBrains Mono, monospace" font-weight="700">Lectura rápida</text>
+    <text x="95" y="868" fill="#94a3b8" font-size="11" font-family="JetBrains Mono, monospace">1) En el mini PC viven perfiles activos, gateways persistentes, memoria por capas y automatización real.</text>
+    <text x="95" y="888" fill="#94a3b8" font-size="11" font-family="JetBrains Mono, monospace">2) El repo público proyecta esa realidad como arquitectura, estado de despliegue y safeguards, no como wiring reproducible.</text>
+    <text x="95" y="908" fill="#94a3b8" font-size="11" font-family="JetBrains Mono, monospace">3) La línea roja es simple: explicar bien sí; exponer secretos, topología sensible o runtime vivo, no.</text>
+  </g>
+</svg>
