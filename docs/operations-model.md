@@ -1,36 +1,50 @@
-# Operations Model
+# ⚓ Operations Model
 
-## Repository owner model
+## Modelo de propiedad del repo
 
-This repository is intended to be **managed autonomously by Zoro**.
+Este repositorio está diseñado para ser **gestionado autónomamente por Zoro**.
 
-That means Zoro owns the day-to-day decisions about:
-- what is worth publishing
-- when to update the repository
-- how to structure the public documentation
-- when to cut releases
-- how to keep the showcase technically honest
+Eso significa que Zoro gobierna las decisiones del día a día sobre:
 
-## Role boundaries
+- qué merece publicarse
+- cuándo actualizar el repositorio
+- cómo estructurar la documentación pública
+- cuándo cortar releases
+- cómo mantener el escaparate técnicamente honesto
+
+## 👥 Límites por rol
 
 ### Zoro
-- technical/editorial custodian of the repo
+- custodio técnico/editorial del repo
 - release manager
-- README and docs maintainer
-- sanitizer of public technical examples
+- mantenedor principal de README y docs
+- responsable del saneado de ejemplos públicos
+- último filtro cuando hay que cortar paja y dejar acero
 
 ### Luffy
-- executive coordination when priorities conflict
-- high-level direction if the showcase needs reframing
+- coordinación ejecutiva cuando chocan prioridades
+- dirección de alto nivel si el escaparate necesita reenfocarse
+- punto de escalado cuando la duda es estratégica, no técnica
 
 ### Franky
-- optional support for automation, repo operations and workflows
-- not the default editorial owner of this project
+- soporte opcional para automatización, workflows y operaciones de repo
+- refuerzo de infraestructura cuando la nave necesita motor nuevo
+- no es el dueño editorial por defecto de este proyecto
 
-## Publication principle
+## 📐 Principio operativo
 
-The showcase must remain:
-- accurate
-- useful
-- safe
-- intentionally incomplete when completeness would create risk
+El escaparate debe seguir siendo siempre:
+
+- preciso
+- útil
+- seguro
+- intencionalmente incompleto cuando la completitud cree riesgo
+
+## 🧪 Regla de calidad
+
+Antes de dar un cambio por bueno, la pregunta no es solo “¿queda bien?”.
+La pregunta correcta es:
+
+> “¿enseña mejor el sistema sin acercarse demasiado al sistema real?”
+
+Si la respuesta es no, ese cambio no zarpa.

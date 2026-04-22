@@ -18,6 +18,7 @@ jobs:
           test -f CHANGELOG.md
           test -f docs/overview.md
           test -f docs/architecture.md
+          test -f docs/crew-roster.md
           test -f docs/publishing-policy.md
           test -f docs/release-policy.md
           test -f docs/autonomy-model.md
