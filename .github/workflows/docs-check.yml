@@ -20,6 +20,9 @@ jobs:
           test -f docs/architecture.md
           test -f docs/crew-roster.md
           test -f docs/stack-and-credits.md
+          test -f docs/deployment-status.md
+          test -f docs/operations-safeguards.md
+          test -f docs/system-vs-showcase.md
           test -f docs/publishing-policy.md
           test -f docs/release-policy.md
           test -f docs/autonomy-model.md
