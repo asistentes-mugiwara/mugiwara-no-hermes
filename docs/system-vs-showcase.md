@@ -38,6 +38,8 @@ Este repo es la capa que responde a preguntas como:
 
 Es una representación **útil, honesta y segura** del sistema.
 
+![Mapa público del sistema Hermes + Mugiwara](../public-assets/diagrams/hermes-mugiwara-system-map.svg)
+
 ## Qué sí proyecta el escaparate
 
 El repo público sí enseña:

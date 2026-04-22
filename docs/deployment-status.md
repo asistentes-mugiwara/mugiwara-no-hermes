@@ -57,6 +57,8 @@ Siguen en canon, pero no cuentan aún como despliegue operativo completo:
 - **Brook**
 - **Jinbe**
 
+![Mapa público del sistema Hermes + Mugiwara](../public-assets/diagrams/hermes-mugiwara-system-map.svg)
+
 ## ⚙️ Qué piezas del sistema están activas hoy
 
 ### Gateways persistentes por perfil
