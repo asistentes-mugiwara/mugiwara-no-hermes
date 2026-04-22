@@ -54,6 +54,12 @@ En este ecosistema aparecen, entre otras, herramientas y capas como:
 
 Si quieres el mapa más claro del stack, las capas de memoria y los créditos a sus creadores, entra en [`docs/stack-and-credits.md`](docs/stack-and-credits.md). 🙏
 
+## 🖼️ Mapa visual del sistema
+
+![Mapa público del sistema Hermes + Mugiwara](public-assets/diagrams/hermes-mugiwara-system-map.svg)
+
+> Si prefieres leer primero y luego mirar el mapa, sigue bajando. Si prefieres orientarte de un vistazo, aquí tienes la carta náutica del sistema. ⚓
+
 ## 🗺️ Qué vas a encontrar a bordo
 
 - `docs/overview.md` → visión general del viaje y del mapa narrativo
