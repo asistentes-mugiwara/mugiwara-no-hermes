@@ -8,12 +8,16 @@ Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama
 ### Added
 - Nuevo tono editorial inspirado en la energía, el humor y la épica ligera de One Piece.
 - Documento `docs/crew-roster.md` con la tripulación pública y su reparto de roles.
+- Documento `docs/stack-and-credits.md` con tecnologías usadas, capas del sistema y agradecimientos públicos.
 - Más contexto narrativo para explicar el modelo Mugiwara sin perder precisión técnica.
 
 ### Changed
 - README rehecho para mejorar onboarding, personalidad y legibilidad.
+- README ampliado para presentar directamente a toda la tripulación y enlazar el roster público.
+- README ampliado para explicar stack, herramientas y créditos desde la portada.
 - Documentación principal reescrita en español con más carisma, estructura y claridad.
 - Políticas de publicación, seguridad y releases alineadas con una voz más viva y memorable.
+- Workflow `docs-check` actualizado para verificar documentación nueva relevante del escaparate.
 - Skill de gobierno editorial del repo actualizada para reflejar el nuevo estándar.
 
 ### Fixed
