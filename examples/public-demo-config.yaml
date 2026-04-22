@@ -1,0 +1,19 @@
+# Public-safe example only.
+# This is not production configuration.
+
+system:
+  name: mugiwara-no-hermes
+  mode: public-showcase
+
+agents:
+  coordinator:
+    name: luffy
+  technical_custodian:
+    name: zoro
+  operations_support:
+    name: franky
+
+publication:
+  policy: deny-by-default
+  release_style: editorial-semver
+  include_runtime_state: false

@@ -1,0 +1,23 @@
+name: docs-check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  docs-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Basic repository checks
+        run: |
+          test -f README.md
+          test -f SECURITY.md
+          test -f CHANGELOG.md
+          test -f docs/overview.md
+          test -f docs/architecture.md
+          test -f docs/publishing-policy.md
+          test -f docs/release-policy.md
+          test -f docs/autonomy-model.md
