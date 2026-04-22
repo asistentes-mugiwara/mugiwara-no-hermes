@@ -16,11 +16,48 @@ Aquí contamos, con criterio y sin humo:
 - cómo Zoro mantiene la cubierta software con disciplina, verify y cero postureo
 - cómo convertir arquitectura seria en documentación que da gusto leer 📚
 
+## 👥 La tripulación completa
+
+Sí: tienes razón. En un repo que se llama *Mugiwara no Hermes*, la tripulación no debería salir solo de refilón.
+
+### Núcleo activo hoy
+- **Luffy** → capitán, coordinación y rumbo ejecutivo
+- **Zoro** → software, arquitectura, implementación y gobierno técnico/editorial del repo
+- **Franky** → infraestructura, automatización y sistemas
+
+### Resto de la tripulación canónica
+- **Nami** → finanzas y reporting
+- **Usopp** → marketing, diseño y narrativa visual
+- **Robin** → research e inteligencia
+- **Sanji** → operaciones físicas y concierge
+- **Chopper** → ciberseguridad
+- **Brook** → datos y analítica
+- **Jinbe** → legal y regulación
+
+Si quieres el reparto completo con algo más de contexto, entra en [`docs/crew-roster.md`](docs/crew-roster.md). Ahí está el quién-es-quién de la cubierta. 👒
+
+## 🧰 Tecnologías, herramientas y agradecimientos
+
+Sí: también conviene decir de qué está hecha esta nave y reconocer a quienes han forjado piezas clave del astillero.
+
+En este ecosistema aparecen, entre otras, herramientas y capas como:
+
+- **Hermes** como runtime/orquestación base
+- **OpenCode** como runtime multiagente de software en la capa de Zoro
+- **gentle-ai** como marco y assets para SDD, generated-multi y gobierno de agentes
+- **Engram** como memoria viva técnica por proyecto
+- **Honcho** como memoria relacional compartida
+- **Vault** como canon duradero y curado
+- **Git + GitHub** para trazabilidad, revisión y publicación
+
+Si quieres el mapa más claro del stack, las capas de memoria y los créditos a sus creadores, entra en [`docs/stack-and-credits.md`](docs/stack-and-credits.md). 🙏
+
 ## 🗺️ Qué vas a encontrar a bordo
 
 - `docs/overview.md` → visión general del viaje y del mapa narrativo
 - `docs/architecture.md` → arquitectura pública por capas, sin spoilers letales
 - `docs/crew-roster.md` → quién es quién en la tripulación Mugiwara
+- `docs/stack-and-credits.md` → tecnologías usadas y agradecimientos del stack
 - `docs/operations-model.md` → cómo se gobierna el repo día a día
 - `docs/autonomy-model.md` → qué puede decidir Zoro sin invocar al capitán
 - `docs/publishing-policy.md` → ley del mar: **deny-by-default**
