@@ -23,3 +23,5 @@ jobs:
           test -f docs/publishing-policy.md
           test -f docs/release-policy.md
           test -f docs/autonomy-model.md
+          test -f docs/configuration-model.md
+          test -f docs/workflow-model.md
