@@ -1,35 +1,50 @@
-# Architecture
+# 🧱 Architecture
 
-## High-level components
+## Vista de alto nivel
+
+La nave pública se entiende mejor si separas sus grandes piezas. No hace falta ver cada remache del casco para entender por qué flota.
 
 ### 1. Hermes runtime
-Execution layer for profiles, tools, automation and agent interaction.
+La capa de ejecución: perfiles, herramientas, automatización y superficie operativa donde viven los agentes.
 
-### 2. Mugiwara agents
-Specialized roles with differentiated operational boundaries.
+### 2. Tripulación Mugiwara
+Los agentes especializados no son “skins” del mismo bot con distinto peinado. Cada uno tiene alcance, criterios y contrato operativo propios.
 
-Core examples:
-- **Luffy**: orchestration and executive coordination
-- **Zoro**: software and technical governance
-- **Franky**: operations, automation and infrastructure
+Ejemplos del núcleo actual:
 
-### 3. Shared canon
-A curated vault acts as long-term canonical knowledge.
+- **Luffy** → coordinación, priorización y cierre ejecutivo
+- **Zoro** → software, arquitectura, implementación y verify técnico
+- **Franky** → infraestructura, automatización y sistemas
 
-### 4. Layered memory
-Different persistence layers serve different purposes:
-- compact builtin memory
-- shared relational memory
-- project-scoped technical memory
-- canonical vault
+### 3. Canon compartido
+El vault curado actúa como historia oficial del barco: decisiones estables, summaries y conocimiento reutilizable.
 
-### 5. Public showcase layer
-This repository is a filtered, editorially governed layer on top of the real system.
+### 4. Memoria por capas
+No toda memoria merece el mismo destino. El modelo separa:
 
-## Design principles
+- memoria compacta de perfil
+- memoria relacional compartida
+- memoria técnica viva por proyecto
+- canon duradero en vault
 
-- specialization over genericity
-- explicit delegation over fuzzy routing
-- verification over storytelling
-- curated canon over raw dump
-- safe publication over maximal disclosure
+### 5. Capa de escaparate público
+Este repositorio vive por encima del sistema real como una capa editorial filtrada.
+No es un espejo; es una versión gobernada, segura y pensada para enseñar sin regalar munición.
+
+## ⚙️ Principios de diseño
+
+- **especialización sobre generalismo**
+- **delegación explícita sobre improvisación borrosa**
+- **verify sobre storytelling vacío**
+- **canon curado sobre dump bruto**
+- **publicación segura sobre exhibicionismo técnico**
+
+## 🧭 Regla de lectura
+
+Si una pieza parece demasiado abstracta, piensa esto:
+
+- el sistema real es más rico que este repo
+- este repo es más seguro que el sistema real
+- y esa diferencia es intencional, no una carencia
+
+En Grand Line no enseñas el mapa completo si quieres seguir flotando. 🗺️

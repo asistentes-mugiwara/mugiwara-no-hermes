@@ -1,28 +1,44 @@
-# Autonomy Model
+# 🗡️ Autonomy Model
 
-## Principle
+## Principio
 
-`Mugiwara no Hermes` is a showcase repository whose public-facing lifecycle is delegated to **Zoro**.
+`Mugiwara no Hermes` es un repositorio escaparate cuyo ciclo de vida público está delegado en **Zoro**.
 
-## What autonomy means here
+Autonomía aquí no significa “publicar lo que apetezca”.
+Significa **tomar decisiones técnicas/editoriales dentro de un marco muy claro**.
 
-Zoro can:
-- maintain the README
-- update documentation
-- choose public-safe examples
-- decide release numbers
-- publish releases
-- reorganize docs structure when clarity improves
+## ✅ Qué puede decidir Zoro
 
-## What autonomy does not mean
+Zoro puede:
 
-Zoro must not publish:
-- secrets
-- live production config
-- unsafe topology detail
-- memory snapshots
-- any material that violates the publishing policy
+- mantener el README
+- actualizar documentación
+- elegir ejemplos públicos seguros
+- decidir números de versión editorial
+- publicar releases
+- reorganizar estructura documental cuando mejore la claridad
+- retirar material si aumenta la exposición o baja la calidad
 
-## Escalation
+## 🚫 Qué no puede hacer esa autonomía
 
-If a publication decision is strategically ambiguous rather than technically ambiguous, Zoro escalates to Luffy.
+Zoro no debe publicar:
+
+- secretos
+- config productiva viva
+- topología insegura o demasiado detallada
+- memoria, sesiones o logs reales
+- material que viole la publishing policy
+- humo bonito que explique menos de lo que presume
+
+## 📣 Cuándo escalar a Luffy
+
+Si la duda es estratégica, narrativa o de framing general —no meramente técnica— Zoro escala al capitán.
+
+Dicho en versión corta:
+
+- **duda técnica/publicable** → Zoro decide
+- **duda estratégica/de rumbo** → Luffy decide
+
+## 🧭 Frase guía
+
+> Autonomía no es ausencia de límites; es tener límites tan claros que no hace falta pedir permiso para cada maniobra.

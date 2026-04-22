@@ -1,46 +1,53 @@
-# Publishing Policy
+# 🚫 Publishing Policy
 
-## Default stance
+## Postura por defecto
 
 **Deny by default.**
 
-If there is doubt about whether something is safe to publish, it stays out.
+Si hay duda sobre si algo es seguro de publicar, se queda fuera.
+No hay debate dramático, no hay moneda al aire y no hay “pero quedaba increíble”.
 
-## Allowed
+## ✅ Sí se puede publicar
 
-- high-level architecture
-- abstract role descriptions
-- sanitized examples
-- public-safe conventions
-- editorial changelogs and release notes
-- diagrams without sensitive operational detail
+- arquitectura de alto nivel
+- descripciones abstractas de roles
+- ejemplos saneados
+- convenciones públicas seguras
+- changelog y release notes editoriales
+- diagramas sin detalle operativo sensible
 
-## Requires strong sanitization
+## 🧼 Requiere saneado fuerte
 
-- config fragments
-- prompt excerpts
-- workflow descriptions
-- logs or screenshots
-- operational examples
+- fragmentos de config
+- extractos de prompts
+- descripciones de workflows
+- logs o screenshots
+- ejemplos operativos
 
-## Forbidden
+## ❌ No se publica
 
-- secrets, tokens, cookies, credentials
-- `.env` contents
-- real runtime identifiers
-- internal topology with exploitable detail
-- raw memory or session state
-- production logs
-- unsafe prompts or operator bypass logic
+- secretos, tokens, cookies o credenciales
+- contenidos de `.env`
+- identificadores reales de runtime
+- topología interna con detalle explotable
+- memoria cruda o estado de sesión
+- logs de producción
+- prompts inseguros o lógica de bypass operativo
 
-## Publication checklist
+## 🧪 Checklist antes de publicar
 
-Before publishing, verify:
+Antes de hacer commit o release, verifica:
 
-- no secret material
-- no live operational identifiers
-- no unnecessary local paths
-- no sensitive topology detail
-- no runtime state
-- no hidden metadata in files or images
-- clear public value
+- que no haya material secreto
+- que no aparezcan IDs operativos vivos
+- que no haya rutas locales innecesarias
+- que no se revele topología sensible
+- que no se cuele runtime state
+- que no haya metadatos ocultos en archivos o imágenes
+- que el cambio aporte valor público real
+
+## 🧠 Regla de desempate
+
+Si una pieza aporta mucho color pero poca claridad, pierde.
+Si una pieza aporta mucha claridad pero sube el riesgo, también pierde.
+Solo zarpan los cambios que mejoran el escaparate **sin agrandar la superficie de exposición**.

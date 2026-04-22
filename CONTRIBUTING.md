@@ -1,22 +1,53 @@
-# Contributing
+# 🤝 Contributing
 
-This repository is intentionally curated.
+Gracias por querer remar con la tripulación.
 
-## Contribution model
+Este repositorio acepta contribuciones, pero **no es una barra libre**: está curado con intención editorial, criterio técnico y política de exposición mínima.
 
-- Public contributions are welcome as suggestions and improvements.
-- Final editorial and technical curation belongs to **Zoro**.
-- Not everything useful internally is appropriate for publication here.
+## 🧭 Modelo de contribución
 
-## Ground rules
+- Las contribuciones públicas son bienvenidas como mejoras, aclaraciones y propuestas.
+- La curación final técnica/editorial pertenece a **Zoro**.
+- No todo lo útil en interno es apropiado para publicarse aquí.
+- Una idea espectacular que aumente riesgo sigue siendo mala idea. Sí, incluso si queda muy bonita en el README. 😌
 
-- Do not open PRs containing secrets, operational identifiers or production config.
-- Prefer conceptual diagrams, public-safe examples and documentation improvements.
-- If a detail increases attack surface while adding little explanatory value, it should stay out.
+## ✅ Lo que sí suma
 
-## Before submitting
+Prioriza aportaciones como estas:
 
-- sanitize examples
-- avoid real hostnames, tokens, IDs, local paths and logs
-- keep claims precise and verifiable
-- prefer documentation over speculation
+- mejoras de documentación que expliquen mejor el modelo Mugiwara
+- ejemplos dummy realmente pedagógicos
+- diagramas públicos saneados
+- correcciones de precisión técnica
+- mejoras editoriales que hagan la lectura más clara, ágil y memorable
+
+## ❌ Lo que no entra a bordo
+
+No abras PRs con:
+
+- secretos, credenciales o `.env`
+- logs reales, estados de sesión o memoria viva
+- identificadores operativos innecesarios
+- topología interna detallada del sistema real
+- texto hinchado que suene épico pero no explique nada
+
+## 🛠️ Antes de enviar cambios
+
+Haz esta revisión rápida:
+
+- sanea ejemplos y fragmentos de config
+- evita hostnames reales, tokens, IDs, rutas locales y logs
+- mantén las afirmaciones precisas y verificables
+- prioriza claridad sobre fanservice
+- si una broma empeora la explicación, bórrala sin pena
+
+## 🏴‍☠️ Regla editorial
+
+Queremos que el repo se sienta Mugiwara:
+
+- con energía
+- con humor ligero
+- con referencias marineras o de tripulación cuando ayuden
+- pero sin convertirse en fanfic ni en folleto corporativo disfrazado
+
+La meta es simple: **que un fan sonría y que un técnico serio se quede leyendo**.
