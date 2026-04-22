@@ -8,6 +8,8 @@ Bienvenido a la cubierta pública de **Hermes + Mugiwara**: un escaparate técni
 
 `Mugiwara no Hermes` es la **representación pública saneada** de un sistema privado basado en Hermes.
 
+El sistema de agentes Mugiwara es de **[Pablo](https://github.com/Prodelaya)**, y este repositorio enseña su versión pública curada sin abrir de más la sala de máquinas.
+
 Aquí contamos, con criterio y sin humo:
 
 - cómo se organiza una tripulación de agentes con roles reales
