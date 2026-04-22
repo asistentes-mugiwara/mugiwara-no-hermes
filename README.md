@@ -61,6 +61,9 @@ Si quieres el mapa más claro del stack, las capas de memoria y los créditos a 
 - `docs/crew-roster.md` → quién es quién en la tripulación Mugiwara
 - `docs/stack-and-credits.md` → tecnologías usadas y agradecimientos del stack
 - `docs/operations-model.md` → cómo se gobierna el repo día a día
+- `docs/deployment-status.md` → qué partes del sistema están activas hoy y cuáles siguen en rollout
+- `docs/operations-safeguards.md` → qué salvaguardas operativas sostienen la nave en este mini PC
+- `docs/system-vs-showcase.md` → qué enseña el repo público y qué se queda fuera del sistema real
 - `docs/configuration-model.md` → qué configuración pública existe y qué queda fuera
 - `docs/workflow-model.md` → cómo fluye el trabajo editorial y técnico sin enseñar la sala de máquinas
 - `docs/autonomy-model.md` → qué puede decidir Zoro sin invocar al capitán
