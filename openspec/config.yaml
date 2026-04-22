@@ -1,0 +1,9 @@
+project:
+  name: mugiwara-no-hermes
+  type: public-showcase
+  owner: zoro
+  visibility: public
+publication:
+  policy: deny-by-default
+  runtime_state_public: false
+  secrets_public: false
