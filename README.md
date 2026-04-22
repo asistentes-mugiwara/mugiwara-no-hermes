@@ -106,7 +106,7 @@ Regla maestra:
 - mantenedor operativo: `zoro`
 - política de publicación: `deny-by-default`
 - estilo editorial: épica técnica con humor Mugiwara y emojis con cabeza ⚔️
-- versión editorial actual: `v0.2.0`
+- versión editorial actual: `v0.3.0`
 
 ## 🧭 Roadmap inmediato
 

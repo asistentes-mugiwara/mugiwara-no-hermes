@@ -4,6 +4,21 @@ Todos los cambios relevantes del escaparate público se documentan aquí.
 
 Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama pirate-friendly sí. 🏴‍☠️
 
+## [0.3.0] - 2026-04-22
+### Added
+- `docs/configuration-model.md` para explicar qué configuración pública existe y qué queda fuera del escaparate.
+- `docs/workflow-model.md` para explicar cómo fluyen decisión, delegación, saneado, verify y publicación en Hermes + Mugiwara.
+- Atribución visible a **[Pablo](https://github.com/Prodelaya)** como creador del sistema de agentes Mugiwara desde el README.
+
+### Changed
+- README ampliado para enlazar el modelo público de configuración y workflow.
+- Workflow `docs-check` ampliado para verificar los nuevos documentos.
+- El repo ya explica mejor no solo quién navega y con qué stack, sino también cómo se ordena y cómo trabaja la tripulación.
+
+### Fixed
+- Brecha documental entre arquitectura de alto nivel y flujo operativo público.
+- Falta de contexto público sobre configuración saneada frente a runtime real.
+
 ## [0.2.0] - 2026-04-22
 ### Added
 - Nuevo tono editorial inspirado en la energía, el humor y la épica ligera de One Piece.
