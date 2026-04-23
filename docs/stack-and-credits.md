@@ -17,7 +17,7 @@ Este documento hace dos cosas:
 
 Sin Hermes no hay cubierta donde la tripulación pueda trabajar con disciplina.
 
-> Nota: en este escaparate público no enlazamos un repo concreto de Hermes porque aquí importa la capa de runtime del sistema, no una receta pública de reconstrucción del stack vivo.
+- Repo original: [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
 
 ### OpenCode
 **Rol en el sistema:** runtime multiagente de software usado especialmente en la capa de trabajo de Zoro.
