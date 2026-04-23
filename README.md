@@ -1,26 +1,96 @@
-# 🏴‍☠️ Mugiwara no Hermes
+# 🌊 Mugiwara no Hermes
 
-Bienvenido a la cubierta pública de **Hermes + Mugiwara**: un escaparate técnico donde la tripulación enseña cómo opera un sistema multiagente serio sin enseñar el cofre de los secretos. ⚓
+> La ventana pública de un sistema multiagente privado.
 
-> Este repo no es el Thousand Sunny productivo. Es su versión de exhibición: limpia, honesta, segura y con suficiente carisma como para que aprender no suene a reglamento de la Marina.
+`Mugiwara no Hermes` es el **escaparate público curado** de un sistema multiagente real construido sobre Hermes.
 
-## ✨ Qué es este repositorio
+No es el sistema vivo completo.  
+No es un dump del runtime.  
+No es una colección simpática de agentes con sombrero.
 
-`Mugiwara no Hermes` es la **representación pública saneada** de un sistema privado basado en Hermes.
+Es una capa pública, segura y útil que enseña **cómo se organiza, gobierna y documenta** una tripulación de agentes seria **sin enseñar más de la cuenta**. ⚓
 
-El sistema de agentes Mugiwara es de **[Pablo](https://github.com/Prodelaya)**, y este repositorio enseña su versión pública curada sin abrir de más la sala de máquinas.
+## 🎯 Qué es este repositorio
 
-Aquí contamos, con criterio y sin humo:
+Este repositorio existe para explicar, de forma pública y saneada, un sistema cuyo modelo Mugiwara pertenece a **[Pablo](https://github.com/Prodelaya)**:
 
-- cómo se organiza una tripulación de agentes con roles reales
-- cómo se separan memoria viva, memoria relacional y canon curado
-- cómo se gobierna un repo público sin caer en el exhibicionismo técnico
-- cómo Zoro mantiene la cubierta software con disciplina, verify y cero postureo
-- cómo convertir arquitectura seria en documentación que da gusto leer 📚
+- cómo se reparte una tripulación de agentes con **roles reales**
+- cómo se separan **memoria viva**, **memoria relacional** y **canon curado**
+- cómo se gobierna un sistema multiagente con **delegación explícita**
+- cómo se publica arquitectura y operación **sin regalar superficie sensible**
+- cómo convertir un sistema serio en documentación que se pueda leer con gusto
 
-## 👥 La tripulación completa
+Dicho más corto:
 
-Sí: tienes razón. En un repo que se llama *Mugiwara no Hermes*, la tripulación no debería salir solo de refilón.
+> aquí no versionamos el sistema privado tal cual; versionamos su **relato técnico público**.
+
+## 🧭 Qué aprenderás aquí
+
+Si subes a esta cubierta, vienes a entender cosas como estas:
+
+- cómo dar estructura real a un sistema multiagente
+- cómo evitar que “multiagente” signifique “el mismo bot con diez sombreros”
+- cómo separar capas de memoria sin acabar con todo mezclado en la misma bodega
+- cómo documentar un sistema complejo sin volverlo imprudente
+- cómo combinar **criterio técnico**, **gobierno editorial** y **carisma Mugiwara**
+
+## 🚫 Qué no vas a encontrar
+
+Este repo **no** contiene:
+
+- secretos, tokens, `.env` o credenciales
+- configuración real de producción
+- wiring interno completo del runtime
+- memoria viva, estados de sesión o logs reales
+- topología interna con detalle explotable
+- prompts sensibles o bypasses operativos
+- material que ayude más a reconstruir el sistema que a entenderlo
+
+La regla es simple:
+
+> si una pieza ayuda poco a comprender y mucho a exponer, se queda fuera.
+
+## 🏴‍☠️ Qué hace especial al modelo Mugiwara
+
+La tripulación no funciona como una troupe decorativa.  
+Funciona con algunas ideas simples, pero afiladas:
+
+- **Luffy** marca rumbo, prioridad y cierre
+- **Zoro** custodia software, arquitectura y verify técnico
+- **Franky** opera infraestructura, automatización y sistemas
+- el resto de Mugiwara existe con **roles reales**, no como skins intercambiables
+- la memoria vive por capas
+- la delegación se hace con responsabilidad explícita
+- el canon duradero se cura, no se amontona
+
+Aquí hay aventura, sí.  
+Pero también hay gobierno, límites y disciplina. Como debe ser si no quieres que el barco termine contra las rocas.
+
+## 🗺️ Mapa de lectura
+
+Si quieres orientarte sin dar vueltas por cubierta, empieza por aquí:
+
+### Empieza aquí
+- [`docs/overview.md`](docs/overview.md) → la tesis general del proyecto
+- [`docs/architecture.md`](docs/architecture.md) → la arquitectura pública de alto nivel
+- [`docs/system-vs-showcase.md`](docs/system-vs-showcase.md) → la frontera entre el sistema vivo y este escaparate
+
+### Si quieres entender cómo se gobierna
+- [`docs/workflow-model.md`](docs/workflow-model.md) → cómo se decide, sanea, verifica y publica
+- [`docs/publishing-policy.md`](docs/publishing-policy.md) → qué se puede publicar y qué no
+- [`SECURITY.md`](SECURITY.md) → cómo reportar un problema de seguridad o exposición
+
+### Si quieres ampliar contexto
+- [`docs/crew-roster.md`](docs/crew-roster.md) → quién es quién en la tripulación
+- [`docs/stack-and-credits.md`](docs/stack-and-credits.md) → stack, capas y créditos con enlaces a los repos originales
+- [`docs/deployment-status.md`](docs/deployment-status.md) → qué partes del sistema están activas hoy
+- [`docs/operations-safeguards.md`](docs/operations-safeguards.md) → safeguards operativos en versión pública saneada
+- [`docs/configuration-model.md`](docs/configuration-model.md) → qué se enseña de configuración y qué se queda privado
+- [`docs/autonomy-model.md`](docs/autonomy-model.md) → qué puede decidir Zoro sin invocar al capitán
+- [`docs/release-policy.md`](docs/release-policy.md) → cómo se versiona esta aventura editorial
+- [`examples/public-demo-config.yaml`](examples/public-demo-config.yaml) → ejemplo público, dummy y seguro
+
+## 👥 La tripulación
 
 ### Núcleo activo hoy
 - **Luffy** → capitán, coordinación y rumbo ejecutivo
@@ -36,47 +106,49 @@ Sí: tienes razón. En un repo que se llama *Mugiwara no Hermes*, la tripulació
 - **Brook** → datos y analítica
 - **Jinbe** → legal y regulación
 
-Si quieres el reparto completo con algo más de contexto, entra en [`docs/crew-roster.md`](docs/crew-roster.md). Ahí está el quién-es-quién de la cubierta. 👒
+Más detalle aquí:
+- [`docs/crew-roster.md`](docs/crew-roster.md)
 
-## 🧰 Tecnologías, herramientas y agradecimientos
+## 🧰 Stack y créditos
 
-Sí: también conviene decir de qué está hecha esta nave y reconocer a quienes han forjado piezas clave del astillero.
+El sistema se apoya en piezas y capas con responsabilidades distintas:
 
-En este ecosistema aparecen, entre otras, herramientas y capas como:
+- **Hermes** → runtime base y orquestación
+- **OpenCode** → capa de runtime software en el dominio de Zoro
+- **gentle-ai** → framework y assets de trabajo
+- **Engram** → memoria técnica viva por proyecto
+- **Honcho** → memoria relacional compartida
+- **Vault** → canon duradero y curado
+- **Git + GitHub** → trazabilidad, revisión y publicación
 
-- **Hermes** como runtime/orquestación base
-- **OpenCode** como runtime multiagente de software en la capa de Zoro
-- **gentle-ai** como marco y assets para SDD, generated-multi y gobierno de agentes
-- **Engram** como memoria viva técnica por proyecto
-- **Honcho** como memoria relacional compartida
-- **Vault** como canon duradero y curado
-- **Git + GitHub** para trazabilidad, revisión y publicación
-
-Si quieres el mapa más claro del stack, las capas de memoria y los créditos a sus creadores, entra en [`docs/stack-and-credits.md`](docs/stack-and-credits.md). 🙏
+Más contexto y créditos con enlaces a los proyectos originales:
+- [`docs/stack-and-credits.md`](docs/stack-and-credits.md)
 
 ## 🖼️ Mapa visual del sistema
 
 ![Mapa público del sistema Hermes + Mugiwara](public-assets/diagrams/hermes-mugiwara-system-map.svg)
 
-> Si prefieres leer primero y luego mirar el mapa, sigue bajando. Si prefieres orientarte de un vistazo, aquí tienes la carta náutica del sistema. ⚓
+> Si prefieres mirar primero y luego leer, aquí tienes la carta náutica del sistema. ⚓
 
-## 🗺️ Qué vas a encontrar a bordo
+## 🧱 Sistema real vs escaparate público
 
-- `docs/overview.md` → visión general del viaje y del mapa narrativo
-- `docs/architecture.md` → arquitectura pública por capas, sin spoilers letales
-- `docs/crew-roster.md` → quién es quién en la tripulación Mugiwara
-- `docs/stack-and-credits.md` → tecnologías usadas y agradecimientos del stack
-- `docs/operations-model.md` → cómo se gobierna el repo día a día
-- `docs/deployment-status.md` → qué partes del sistema están activas hoy y cuáles siguen en rollout
-- `docs/operations-safeguards.md` → qué salvaguardas operativas sostienen la nave en este mini PC
-- `docs/system-vs-showcase.md` → qué enseña el repo público y qué se queda fuera del sistema real
-- `public-assets/diagrams/hermes-mugiwara-system-map.svg` → mapa visual del sistema desplegado y su frontera pública
-- `docs/configuration-model.md` → qué configuración pública existe y qué queda fuera
-- `docs/workflow-model.md` → cómo fluye el trabajo editorial y técnico sin enseñar la sala de máquinas
-- `docs/autonomy-model.md` → qué puede decidir Zoro sin invocar al capitán
-- `docs/publishing-policy.md` → ley del mar: **deny-by-default**
-- `docs/release-policy.md` → cómo se versiona esta aventura editorial
-- `examples/public-demo-config.yaml` → ejemplo público, dummy y seguro
+La diferencia importa, y mucho.
+
+El sistema real montado en la máquina:
+- ejecuta agentes
+- mantiene memoria viva
+- tiene gateways, servicios, automatizaciones y wiring operativo
+- vive con más riqueza y también con más riesgo
+
+Este repositorio:
+- explica el modelo
+- enseña arquitectura pública
+- documenta principios
+- ofrece ejemplos saneados
+- protege la operación real
+
+Si quieres ver esa frontera mejor dibujada:
+- [`docs/system-vs-showcase.md`](docs/system-vs-showcase.md)
 
 ## 🚢 Qué demuestra
 
@@ -89,26 +161,22 @@ Este escaparate enseña, sin filtrar runtime ni secretos, que Mugiwara funciona 
 - **trazabilidad por agente** para saber quién tocó qué en la cubierta
 - **criterio de publicación** para que la épica no se convierta en imprudencia
 
-## 💎 Qué NO contiene
+## 🚫 Modelo de publicación
 
-Aquí no guardamos tesoros peligrosos. No encontrarás:
+Este repo se gobierna con una regla sencilla de recordar y sana de obedecer:
 
-- secretos, tokens, `.env` ni credenciales
-- configuración productiva real
-- topología interna completa ni runtime vivo
-- memoria viva, logs reales o estados de sesión
-- prompts sensibles completos ni lógica interna que aumente el riesgo
-- identificadores operativos innecesarios
+> **Deny by default.**
 
-## 👒 Modelo de gobierno
+Si una pieza:
+- explica mejor el sistema sin aumentar riesgo → puede zarpar
+- añade color pero no claridad → no zarpa
+- mejora claridad pero sube demasiado la exposición → tampoco zarpa
 
-- **Luffy** marca rumbo cuando la duda es estratégica o transversal.
-- **Zoro** gobierna este repo como custodio técnico/editorial: estructura, README, docs, releases y saneado público.
-- **Franky** puede reforzar automatización e infraestructura cuando la nave necesita más acero. 🔧
+La misión aquí no es “contar todo”.  
+La misión es **contar bien lo que sí debe ser público**.
 
-Regla maestra:
-
-> Si dudas si algo es publicable, **no se publica**.
+Más detalle:
+- [`docs/publishing-policy.md`](docs/publishing-policy.md)
 
 ## 📌 Estado actual
 
@@ -118,19 +186,56 @@ Regla maestra:
 - estilo editorial: épica técnica con humor Mugiwara y emojis con cabeza ⚔️
 - versión editorial actual: `v0.4.0`
 
-## 🧭 Roadmap inmediato
-
-- enriquecer la documentación pública de roles, arquitectura y gobierno
-- añadir más ejemplos saneados con valor didáctico real
-- publicar releases editoriales con changelog claro, útil y con narrativa
-- mantener el equilibrio entre espectáculo, precisión y seguridad
-
 ## 🤝 Cómo contribuir
 
-Si quieres ayudar, trae mejoras públicas, diagramas sanos y documentación que aporte claridad. Si traes secretos, runtime real o humo con fuegos artificiales... Zoro corta antes de que llegue a `main`. ✂️
+Se agradecen especialmente:
+- mejoras de claridad documental
+- ejemplos dummy pedagógicos
+- diagramas públicos saneados
+- correcciones técnicas precisas
+- mejoras editoriales que hagan el repo más útil y más legible
 
-Lee `CONTRIBUTING.md` y `SECURITY.md` antes de subir a cubierta.
+La curación final técnica/editorial pertenece a **Zoro**.
 
-## 📜 Licencia
+Guía:
+- [`CONTRIBUTING.md`](CONTRIBUTING.md)
 
-MIT.
+## 🛡️ Seguridad
+
+Si ves algo publicado aquí que crees que expone demasiado:
+
+- **no abras una issue pública** con el contenido sensible
+- contacta por privado con la cuenta propietaria del repo si puedes
+- indica la ruta afectada y el tipo de exposición
+- si hay duda, primero se retira y luego se discute
+
+Más detalle:
+- [`SECURITY.md`](SECURITY.md)
+
+## 📜 Releases
+
+Las releases de este repo no miden “cuánto enseñamos del sistema real”.  
+Miden algo mucho más útil:
+
+- madurez documental
+- claridad arquitectónica
+- calidad del escaparate
+- seguridad editorial
+- capacidad de enseñar el sistema sin traicionarlo
+
+Puedes seguir el historial aquí:
+- [`CHANGELOG.md`](CHANGELOG.md)
+
+## 👑 Cierre
+
+`Mugiwara no Hermes` no compite por ser la copia pública más completa del sistema real.
+
+Compite por algo más difícil:
+
+> ser un escaparate técnico que siga siendo útil, legible y con carisma  
+> **sin dejar de ser prudente**.
+
+Si quieres entender cómo piensa esta tripulación, empieza por el overview.  
+Si quieres entender por qué este repo enseña justo hasta donde enseña, sigue por `system-vs-showcase` y `publishing-policy`.
+
+Buen viaje. ⚓

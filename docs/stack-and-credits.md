@@ -17,35 +17,50 @@ Este documento hace dos cosas:
 
 Sin Hermes no hay cubierta donde la tripulación pueda trabajar con disciplina.
 
+> Nota: en este escaparate público no enlazamos un repo concreto de Hermes porque aquí importa la capa de runtime del sistema, no una receta pública de reconstrucción del stack vivo.
+
 ### OpenCode
 **Rol en el sistema:** runtime multiagente de software usado especialmente en la capa de trabajo de Zoro.
 
 Aquí aporta ejecución práctica para flujos de implementación, delegación técnica y operación software con estructura.
+
+- Repo original: [anomalyco/opencode](https://github.com/anomalyco/opencode)
 
 ### gentle-ai
 **Rol en el sistema:** marco de trabajo y assets para especialización, SDD, generated-multi, Engram y composición de agentes.
 
 Aquí cumple el papel de astillero conceptual y operativo sobre el que se afina la tripulación Mugiwara.
 
+- Repo original: [Gentleman-Programming/gentle-ai](https://github.com/Gentleman-Programming/gentle-ai)
+
 ### Engram
 **Rol en el sistema:** memoria viva técnica por proyecto.
 
 Sirve para guardar decisiones locales, continuidad de debugging, convenciones de repo y contexto de trabajo que no debería contaminar el canon global.
+
+- Repo original: [Gentleman-Programming/engram](https://github.com/Gentleman-Programming/engram)
 
 ### Honcho
 **Rol en el sistema:** memoria relacional compartida.
 
 Ayuda a mantener contexto útil sobre preferencias, relaciones y continuidad conversacional sin mezclarlo con la memoria técnica viva.
 
+- Repo original: [plastic-labs/honcho](https://github.com/plastic-labs/honcho)
+
 ### Vault canónico
 **Rol en el sistema:** capa de canon duradero y curado.
 
 Aquí viven summaries, decisiones estables, playbooks y conocimiento compartible que debe sobrevivir más allá de una sesión.
 
+> Nota: el vault aquí es una capa propia del sistema Mugiwara, no un proyecto externo con repo público de referencia.
+
 ### Git + GitHub
 **Rol en el sistema:** trazabilidad, revisión, versionado y publicación.
 
 Permiten gobernar cambios, revisar PRs, mantener releases y dejar claro qué entra en cubierta y qué no.
+
+- Git: [git/git](https://github.com/git/git)
+- GitHub: [github.com](https://github.com)
 
 ## 🧠 Capas de memoria, en versión corta
 
@@ -60,20 +75,20 @@ Esa separación es parte de la gracia del modelo: menos caos, menos mezcla y má
 
 ## 🙏 Agradecimientos
 
-### gentleman-programing / gentle-ai
+### [Gentleman-Programming/gentle-ai](https://github.com/Gentleman-Programming/gentle-ai)
 Agradecimiento explícito al trabajo detrás de **gentle-ai**, por aportar marco, primitives y enfoque para construir sistemas multiagente con más estructura y menos humo.
 
-### OpenCode
+### [anomalyco/opencode](https://github.com/anomalyco/opencode)
 Agradecimiento a **OpenCode** como pieza importante del runtime software multiagente que hace viable parte de la operativa técnica de Zoro.
 
-### Engram
+### [Gentleman-Programming/engram](https://github.com/Gentleman-Programming/engram)
 Agradecimiento por la idea y la pieza de **memoria viva por proyecto**, clave para que un sistema especializado no acabe confundiendo continuidad técnica con canon definitivo.
 
-### Honcho
+### [plastic-labs/honcho](https://github.com/plastic-labs/honcho)
 Agradecimiento por la capa de **memoria relacional**, útil para mantener contexto humano compartido sin convertir cada conversación en un vertedero de estado.
 
 ### Ecosistema open-source y tooling usado
-También hay deuda buena con el ecosistema que hace posible lo demás: Git, GitHub y otras herramientas que sostienen la disciplina operativa, el versionado y la colaboración.
+También hay deuda buena con el ecosistema que hace posible lo demás: **[Git](https://github.com/git/git)**, **[GitHub](https://github.com)** y otras herramientas que sostienen la disciplina operativa, el versionado y la colaboración.
 
 ## 📌 Nota editorial
 
@@ -82,4 +97,4 @@ No pretende reclamar autoría ajena ni convertir el repo en una vitrina de logos
 
 La idea es más simple y más honesta:
 
-> decir con qué navegamos y agradecer a quienes ayudaron a construir el barco.
+> decir con qué navegamos, enlazar a quienes construyeron piezas clave y agradecer sin hinchar el escaparate.
