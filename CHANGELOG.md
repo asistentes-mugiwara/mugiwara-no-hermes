@@ -4,6 +4,16 @@ Todos los cambios relevantes del escaparate público se documentan aquí.
 
 Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama pirate-friendly sí. 🏴‍☠️
 
+## [0.4.1] - 2026-04-23
+### Changed
+- `docs/deployment-status.md` actualizado para reflejar siete perfiles activos hoy y no solo el núcleo inicial.
+- `docs/crew-roster.md` ampliado para distinguir entre núcleo operativo, especialistas ya activos y tripulación aún pendiente de activación formal.
+- README alineado con el estado público verificado del sistema y con la versión editorial `v0.4.1`.
+
+### Fixed
+- Desfase entre el canon/runtime verificados y la representación pública del estado de activación de la tripulación.
+- Señal pública demasiado conservadora sobre cuántos perfiles Mugiwara están ya desplegados.
+
 ## [0.4.0] - 2026-04-22
 ### Added
 - `docs/deployment-status.md` para explicar qué partes del sistema Hermes + Mugiwara están activas hoy en este mini PC.

@@ -22,15 +22,29 @@ Mugiwara funciona mejor cuando cada miembro tiene un rol claro. Aquí no hay “
 - refuerza automatización, Linux, despliegues y tooling
 - construye la maquinaria para que el barco no cruja al primer temporal
 
-## 🌍 Resto de la tripulación canónica
+## 🌍 Especialistas ya activos
 
-La tripulación completa incluye otros especialistas según dominio:
+### Nami — finanzas y reporting
+- ordena números, reporting y control económico
+- traduce operación en criterio financiero útil, no en hojas mudas
 
-- **Nami** → finanzas y reporting
-- **Usopp** → marketing, diseño y narrativa visual
-- **Robin** → research e inteligencia
+### Robin — research e inteligencia
+- investiga, compara fuentes y sintetiza hallazgos con criterio
+- ayuda a que la tripulación piense mejor antes de mover pieza
+
+### Usopp — marketing, diseño y narrativa visual
+- convierte ideas y capacidades en mensajes, campañas y piezas legibles
+- da forma pública al relato sin vender humo
+
+### Chopper — ciberseguridad
+- revisa superficie de ataque, hardening y riesgo técnico
+- ayuda a que la nave no confunda velocidad con imprudencia
+
+## 🗺️ Tripulación canónica pendiente de activación formal
+
+La tripulación completa incluye además especialistas definidos en canon que todavía no figuran como activos de forma pública:
+
 - **Sanji** → operaciones físicas y concierge
-- **Chopper** → ciberseguridad
 - **Brook** → datos y analítica
 - **Jinbe** → legal y regulación
 

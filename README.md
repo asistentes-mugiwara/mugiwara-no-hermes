@@ -97,12 +97,14 @@ Si quieres orientarte sin dar vueltas por cubierta, empieza por aquí:
 - **Zoro** → software, arquitectura, implementación y gobierno técnico/editorial del repo
 - **Franky** → infraestructura, automatización y sistemas
 
-### Resto de la tripulación canónica
+### Especialistas ya activos en el sistema
 - **Nami** → finanzas y reporting
 - **Usopp** → marketing, diseño y narrativa visual
 - **Robin** → research e inteligencia
-- **Sanji** → operaciones físicas y concierge
 - **Chopper** → ciberseguridad
+
+### Tripulación canónica aún pendiente de activación formal
+- **Sanji** → operaciones físicas y concierge
 - **Brook** → datos y analítica
 - **Jinbe** → legal y regulación
 
@@ -184,7 +186,7 @@ Más detalle:
 - mantenedor operativo: `zoro`
 - política de publicación: `deny-by-default`
 - estilo editorial: épica técnica con humor Mugiwara y emojis con cabeza ⚔️
-- versión editorial actual: `v0.4.0`
+- versión editorial actual: `v0.4.1`
 
 ## 🤝 Cómo contribuir
 

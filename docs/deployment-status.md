@@ -41,19 +41,15 @@ En este mini PC, los perfiles activos y operativos hoy son:
 - **Luffy**
 - **Zoro**
 - **Franky**
-
-### Configurados parcialmente, pero no desplegados formalmente como agentes activos
-También existen perfiles con parte de la base ya preparada, especialmente en la capa de memoria:
-
 - **Nami**
 - **Usopp**
 - **Robin**
+- **Chopper**
 
 ### Definidos, pero todavía no formalizados en runtime
 Siguen en canon, pero no cuentan aún como despliegue operativo completo:
 
 - **Sanji**
-- **Chopper**
 - **Brook**
 - **Jinbe**
 
@@ -67,6 +63,10 @@ Los agentes activos no dependen de un arranque manual improvisado. La nave ya us
 - **Luffy**
 - **Zoro**
 - **Franky**
+- **Nami**
+- **Usopp**
+- **Robin**
+- **Chopper**
 
 Eso significa que la capa conversacional está separada por perfil y se mantiene viva como servicio estable.
 
@@ -124,6 +124,6 @@ Este documento no publica:
 La conclusión correcta no es “todo Mugiwara está ya desplegado”.
 La conclusión correcta es otra:
 
-> ya existe una base operativa real y estable en este mini PC, pero el despliegue completo de toda la tripulación sigue siendo progresivo.
+> ya existe una base operativa real más amplia y estable en este mini PC, con siete perfiles activos, pero el despliegue completo de toda la tripulación sigue siendo progresivo.
 
 Y eso, francamente, da más confianza que fingir que el barco entero ya está navegando a velocidad máxima. ⚓
