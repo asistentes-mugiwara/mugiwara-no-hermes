@@ -44,12 +44,15 @@ Mugiwara funciona mejor cuando cada miembro tiene un rol claro. Aquí no hay “
 - estructura datos, métricas y señales cuantitativas
 - traduce ruido disperso en criterio útil para decidir
 
-## 🗺️ Tripulación canónica pendiente de activación formal
+### Sanji — compras, reservas y vigilancia práctica
+- rastrea opciones, precios, disponibilidad y condiciones antes de recomendar
+- vigila reservas, citas, caducidades y servicios con criterio operativo
+- propone acción útil sin comprar, contratar ni cancelar nada sin confirmación
 
-La tripulación completa incluye además especialistas definidos en canon que todavía no figuran como activos de forma pública:
-
-- **Sanji** → operaciones físicas y concierge
-- **Jinbe** → legal y regulación
+### Jinbe — legal, regulación y burocracia
+- interpreta normativa española, trámites, contratos y obligaciones administrativas
+- separa norma, supuestos, riesgos, recomendación y necesidad de escalado profesional
+- protege la cubierta legal sin convertir el repo público en expediente ni asesoría formal
 
 ## 🧭 Filosofía de reparto
 

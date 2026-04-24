@@ -46,12 +46,10 @@ En este mini PC, los perfiles activos y operativos hoy son:
 - **Robin**
 - **Chopper**
 - **Brook**
-
-### Definidos, pero todavía no formalizados en runtime
-Siguen en canon, pero no cuentan aún como despliegue operativo completo:
-
 - **Sanji**
 - **Jinbe**
+
+No publicamos aquí el cableado fino de cada perfil. La señal pública útil es más simple: la tripulación canónica completa ya figura como activa, con responsabilidades separadas y límites de publicación claros.
 
 ![Mapa público del sistema Hermes + Mugiwara](../public-assets/diagrams/hermes-mugiwara-system-map.svg)
 
@@ -68,6 +66,8 @@ Los agentes activos no dependen de un arranque manual improvisado. La nave ya us
 - **Robin**
 - **Chopper**
 - **Brook**
+- **Sanji**
+- **Jinbe**
 
 Eso significa que la capa conversacional está separada por perfil y se mantiene viva como servicio estable.
 
@@ -122,9 +122,9 @@ Este documento no publica:
 
 ## 📌 Lectura honesta
 
-La conclusión correcta no es “todo Mugiwara está ya desplegado”.
+La conclusión correcta no es “todo detalle de Mugiwara debe publicarse”.
 La conclusión correcta es otra:
 
-> ya existe una base operativa real más amplia y estable en este mini PC, con ocho perfiles activos, pero el despliegue completo de toda la tripulación sigue siendo progresivo.
+> ya existe una base operativa real más amplia y estable en este mini PC, con la tripulación canónica completa activa, pero la publicación pública sigue siendo deliberadamente progresiva y saneada.
 
 Y eso, francamente, da más confianza que fingir que el barco entero ya está navegando a velocidad máxima. ⚓

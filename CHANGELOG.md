@@ -4,6 +4,14 @@ Todos los cambios relevantes del escaparate público se documentan aquí.
 
 Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama pirate-friendly sí. 🏴‍☠️
 
+## [0.4.3] - 2026-04-24
+### Changed
+- `README.md`, `docs/crew-roster.md`, `docs/deployment-status.md` y el mapa público alineados para reflejar la activación pública saneada de **Sanji** y **Jinbe**.
+- Estado público actualizado de ocho perfiles activos a la tripulación canónica completa activa, sin publicar wiring sensible ni detalles internos de runtime.
+
+### Fixed
+- Desfase entre el canon operativo actualizado del vault y la representación pública de la tripulación pendiente de activación formal.
+
 ## [0.4.2] - 2026-04-24
 ### Changed
 - `README.md`, `docs/crew-roster.md` y `docs/deployment-status.md` alineados para reflejar a **Brook** como especialista activo de datos y analítica.

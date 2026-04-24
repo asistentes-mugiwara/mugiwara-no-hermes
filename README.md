@@ -103,10 +103,8 @@ Si quieres orientarte sin dar vueltas por cubierta, empieza por aquí:
 - **Robin** → research e inteligencia
 - **Chopper** → ciberseguridad
 - **Brook** → datos y analítica
-
-### Tripulación canónica aún pendiente de activación formal
-- **Sanji** → operaciones físicas y concierge
-- **Jinbe** → legal y regulación
+- **Sanji** → compras, reservas, viajes y vigilancia práctica
+- **Jinbe** → legal, regulación y burocracia española
 
 Más detalle aquí:
 - [`docs/crew-roster.md`](docs/crew-roster.md)
@@ -186,7 +184,7 @@ Más detalle:
 - mantenedor operativo: `zoro`
 - política de publicación: `deny-by-default`
 - estilo editorial: épica técnica con humor Mugiwara y emojis con cabeza ⚔️
-- versión editorial actual: `v0.4.2`
+- versión editorial actual: `v0.4.3`
 
 ## 🤝 Cómo contribuir
 
