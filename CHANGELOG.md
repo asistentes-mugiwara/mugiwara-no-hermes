@@ -4,6 +4,14 @@ Todos los cambios relevantes del escaparate público se documentan aquí.
 
 Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama pirate-friendly sí. 🏴‍☠️
 
+## [0.4.2] - 2026-04-24
+### Changed
+- `README.md`, `docs/crew-roster.md` y `docs/deployment-status.md` alineados para reflejar a **Brook** como especialista activo de datos y analítica.
+- Estado público actualizado de siete a ocho perfiles activos, manteniendo a **Sanji** y **Jinbe** como tripulación canónica pendiente de activación formal.
+
+### Fixed
+- Desfase editorial entre el canon operativo actual y la representación pública de la tripulación activa.
+
 ## [0.4.1] - 2026-04-23
 ### Changed
 - `docs/deployment-status.md` actualizado para reflejar siete perfiles activos hoy y no solo el núcleo inicial.

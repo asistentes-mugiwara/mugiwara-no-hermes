@@ -40,12 +40,15 @@ Mugiwara funciona mejor cuando cada miembro tiene un rol claro. Aquí no hay “
 - revisa superficie de ataque, hardening y riesgo técnico
 - ayuda a que la nave no confunda velocidad con imprudencia
 
+### Brook — datos y analítica
+- estructura datos, métricas y señales cuantitativas
+- traduce ruido disperso en criterio útil para decidir
+
 ## 🗺️ Tripulación canónica pendiente de activación formal
 
 La tripulación completa incluye además especialistas definidos en canon que todavía no figuran como activos de forma pública:
 
 - **Sanji** → operaciones físicas y concierge
-- **Brook** → datos y analítica
 - **Jinbe** → legal y regulación
 
 ## 🧭 Filosofía de reparto

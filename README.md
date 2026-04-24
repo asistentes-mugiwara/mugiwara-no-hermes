@@ -102,10 +102,10 @@ Si quieres orientarte sin dar vueltas por cubierta, empieza por aquí:
 - **Usopp** → marketing, diseño y narrativa visual
 - **Robin** → research e inteligencia
 - **Chopper** → ciberseguridad
+- **Brook** → datos y analítica
 
 ### Tripulación canónica aún pendiente de activación formal
 - **Sanji** → operaciones físicas y concierge
-- **Brook** → datos y analítica
 - **Jinbe** → legal y regulación
 
 Más detalle aquí:
@@ -186,7 +186,7 @@ Más detalle:
 - mantenedor operativo: `zoro`
 - política de publicación: `deny-by-default`
 - estilo editorial: épica técnica con humor Mugiwara y emojis con cabeza ⚔️
-- versión editorial actual: `v0.4.1`
+- versión editorial actual: `v0.4.2`
 
 ## 🤝 Cómo contribuir
 
