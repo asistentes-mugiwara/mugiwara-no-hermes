@@ -33,6 +33,7 @@ Si subes a esta cubierta, vienes a entender cosas como estas:
 - cómo separar capas de memoria sin acabar con todo mezclado en la misma bodega
 - cómo documentar un sistema complejo sin volverlo imprudente
 - cómo combinar **criterio técnico**, **gobierno editorial** y **carisma Mugiwara**
+- cómo separar construcción, review y merge sin convertir cada PR en una batalla naval burocrática
 
 ## 🚫 Qué no vas a encontrar
 
@@ -184,7 +185,7 @@ Más detalle:
 - mantenedor operativo: `zoro`
 - política de publicación: `deny-by-default`
 - estilo editorial: épica técnica con humor Mugiwara y emojis con cabeza ⚔️
-- versión editorial actual: `v0.4.3`
+- versión editorial actual: `v0.5.0`
 
 ## 🤝 Cómo contribuir
 

@@ -4,6 +4,16 @@ Todos los cambios relevantes del escaparate público se documentan aquí.
 
 Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama pirate-friendly sí. 🏴‍☠️
 
+## [0.5.0] - 2026-04-25
+### Added
+- `docs/workflow-model.md` amplía el modelo público con el circuito saneado de revisión de PRs por perímetro: Zoro construye, Franky revisa operación, Chopper revisa seguridad y Usopp revisa diseño/UX cuando corresponde.
+
+### Changed
+- README actualizado a la versión editorial `v0.5.0` y reforzado con la idea de separar construcción, review y merge sin publicar wiring operativo sensible.
+
+### Security
+- El nuevo contenido mantiene el modelo en nivel de gobernanza pública: no incluye comandos internos, rutas privadas, comentarios reales de PR ni mecanismos de invocación entre agentes.
+
 ## [0.4.3] - 2026-04-24
 ### Changed
 - `README.md`, `docs/crew-roster.md`, `docs/deployment-status.md` y el mapa público alineados para reflejar la activación pública saneada de **Sanji** y **Jinbe**.

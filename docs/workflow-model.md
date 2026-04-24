@@ -59,7 +59,22 @@ En este repo eso significa, como mínimo:
 - pasar los checks documentales del repo
 - confirmar que no se ha colado material interno
 
-### 7. Publicar o cortar
+### 7. Revisar PRs según perímetro
+Cuando un cambio público vive en una PR relevante, el modelo Mugiwara separa **quién construye** de **quién revisa el riesgo**.
+
+La regla pública saneada es:
+
+- **Zoro** construye, verifica y abre la PR
+- **Franky** revisa si el cambio toca operación, runtime, CI/CD o automatización
+- **Chopper** revisa si el cambio toca seguridad, permisos, auth, secretos, dependencias o exposición
+- **Usopp** revisa si el cambio toca diseño, UI, UX, copy visible o percepción pública
+- si el cambio mezcla perímetros, se combinan reviewers
+
+La idea no es añadir teatro: es evitar que una misma espada corte, juzgue y selle la cubierta cuando hay riesgo real. ⚔️
+
+En cambios triviales o puramente documentales de bajo riesgo, Zoro puede cerrar con verify local y revisión editorial propia si la política del repo lo permite.
+
+### 8. Publicar o cortar
 Si pasa el filtro, se publica.
 Si no lo pasa, se corta sin drama, aunque el texto “quedase increíble”.
 
@@ -78,6 +93,14 @@ Si no lo pasa, se corta sin drama, aunque el texto “quedase increíble”.
 ### Franky
 - apoyo en automatización, tooling y workflows de soporte
 - refuerzo cuando el cambio toca más operación que narrativa
+
+### Chopper
+- revisión de seguridad cuando una PR toca auth, secretos, permisos, dependencias, endpoints o exposición accidental
+- voz de bloqueo cuando el riesgo residual no está suficientemente controlado
+
+### Usopp
+- revisión visual/UX cuando el cambio afecta interfaz, jerarquía visual, copy visible o percepción de marca
+- apoyo para que lo público sea claro, legible y no solo técnicamente correcto
 
 ## 🧠 Qué se promociona y qué no
 
