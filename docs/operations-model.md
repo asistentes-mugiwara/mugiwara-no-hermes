@@ -2,24 +2,28 @@
 
 ## Modelo de propiedad del repo
 
-Este repositorio está diseñado para ser **gestionado autónomamente por Zoro**.
+Este repositorio está diseñado para funcionar con **custodia por dominio**.
 
-Eso significa que Zoro gobierna las decisiones del día a día sobre:
+Eso significa que el día a día no depende de un único sombrero para todo:
 
-- qué merece publicarse
-- cuándo actualizar el repositorio
-- cómo estructurar la documentación pública
-- cuándo cortar releases
-- cómo mantener el escaparate técnicamente honesto
+- **Zoro** gobierna la arquitectura pública, la precisión técnica, el verify y las releases.
+- **Usopp** gobierna el mantenimiento editorial, el tono, la jerarquía de lectura y la claridad del escaparate.
+- **Franky**, **Chopper** u otros Mugiwara entran cuando el cambio toca su perímetro.
+
+La regla no cambia: cada decisión debe mejorar el valor público sin acercar demasiado al lector al runtime real.
 
 ## 👥 Límites por rol
 
 ### Zoro
-- custodio técnico/editorial del repo
+- custodio técnico del repo
 - release manager
-- mantenedor principal de README y docs
 - responsable del saneado de ejemplos públicos
 - último filtro cuando hay que cortar paja y dejar acero
+
+### Usopp
+- mantenedor editorial de README, docs y piezas públicas del escaparate
+- responsable de claridad, tono, onboarding y coherencia narrativa
+- último filtro cuando una frase suena bonita pero no ayuda a entender
 
 ### Luffy
 - coordinación ejecutiva cuando chocan prioridades

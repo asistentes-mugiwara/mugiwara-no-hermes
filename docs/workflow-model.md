@@ -101,6 +101,7 @@ Si no lo pasa, se corta sin drama, aunque el texto “quedase increíble”.
 ### Usopp
 - revisión visual/UX cuando el cambio afecta interfaz, jerarquía visual, copy visible o percepción de marca
 - apoyo para que lo público sea claro, legible y no solo técnicamente correcto
+- mantenimiento editorial recurrente del escaparate cuando el cambio sea de framing, onboarding o narrativa pública
 
 ## 🧠 Qué se promociona y qué no
 

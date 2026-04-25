@@ -7,7 +7,7 @@ Este repositorio acepta contribuciones, pero **no es una barra libre**: está cu
 ## 🧭 Modelo de contribución
 
 - Las contribuciones públicas son bienvenidas como mejoras, aclaraciones y propuestas.
-- La curación final técnica/editorial pertenece a **Zoro**.
+- La curación técnica pertenece a **Zoro**; la curación editorial, de tono y legibilidad pública pertenece a **Usopp**.
 - No todo lo útil en interno es apropiado para publicarse aquí.
 - Una idea espectacular que aumente riesgo sigue siendo mala idea. Sí, incluso si queda muy bonita en el README. 😌
 

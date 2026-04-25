@@ -59,6 +59,7 @@ Funciona con algunas ideas simples, pero afiladas:
 - **Luffy** marca rumbo, prioridad y cierre
 - **Zoro** custodia software, arquitectura y verify técnico
 - **Franky** opera infraestructura, automatización y sistemas
+- **Usopp** afila copy, narrativa pública y legibilidad del escaparate
 - el resto de Mugiwara existe con **roles reales**, no como skins intercambiables
 - la memoria vive por capas
 - la delegación se hace con responsabilidad explícita
@@ -95,12 +96,12 @@ Si quieres orientarte sin dar vueltas por cubierta, empieza por aquí:
 
 ### Núcleo activo hoy
 - **Luffy** → capitán, coordinación y rumbo ejecutivo
-- **Zoro** → software, arquitectura, implementación y gobierno técnico/editorial del repo
+- **Zoro** → software, arquitectura, implementación y gobierno técnico del repo
 - **Franky** → infraestructura, automatización y sistemas
 
 ### Especialistas ya activos en el sistema
 - **Nami** → finanzas y reporting
-- **Usopp** → marketing, diseño y narrativa visual
+- **Usopp** → marketing, diseño, narrativa visual y mantenimiento editorial del escaparate
 - **Robin** → research e inteligencia
 - **Chopper** → ciberseguridad
 - **Brook** → datos y analítica
@@ -182,7 +183,8 @@ Más detalle:
 ## 📌 Estado actual
 
 - tipo: repositorio público escaparate
-- mantenedor operativo: `zoro`
+- gobierno técnico: `zoro`
+- mantenimiento editorial: `usopp`
 - política de publicación: `deny-by-default`
 - estilo editorial: épica técnica con humor Mugiwara y emojis con cabeza ⚔️
 - versión editorial actual: `v0.5.0`
@@ -196,7 +198,7 @@ Se agradecen especialmente:
 - correcciones técnicas precisas
 - mejoras editoriales que hagan el repo más útil y más legible
 
-La curación final técnica/editorial pertenece a **Zoro**.
+La curación técnica pertenece a **Zoro**; la claridad pública, el tono y el mantenimiento editorial son territorio de **Usopp**. Si una contribución mezcla ambos perímetros, la revisión también debe mezclarlos.
 
 Guía:
 - [`CONTRIBUTING.md`](CONTRIBUTING.md)

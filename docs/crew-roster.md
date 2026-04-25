@@ -16,7 +16,7 @@ Mugiwara funciona mejor cuando cada miembro tiene un rol claro. Aquí no hay “
 - diseña arquitectura y cambios software
 - implementa con disciplina
 - verifica antes de dar nada por bueno
-- gobierna README, docs y releases de este escaparate
+- gobierna la coherencia técnica, el verify y las releases de este escaparate
 
 ### Franky — sistemas e infraestructura
 - refuerza automatización, Linux, despliegues y tooling
@@ -35,6 +35,7 @@ Mugiwara funciona mejor cuando cada miembro tiene un rol claro. Aquí no hay “
 ### Usopp — marketing, diseño y narrativa visual
 - convierte ideas y capacidades en mensajes, campañas y piezas legibles
 - da forma pública al relato sin vender humo
+- mantiene el tono, la jerarquía de lectura y el copy del escaparate
 
 ### Chopper — ciberseguridad
 - revisa superficie de ataque, hardening y riesgo técnico

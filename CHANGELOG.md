@@ -4,6 +4,10 @@ Todos los cambios relevantes del escaparate público se documentan aquí.
 
 Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama pirate-friendly sí. 🏴‍☠️
 
+## [Unreleased]
+### Changed
+- README, `CONTRIBUTING.md`, `docs/crew-roster.md`, `docs/operations-model.md` y `docs/workflow-model.md` aclaran la custodia por dominio: Zoro mantiene el perímetro técnico y Usopp el mantenimiento editorial del escaparate público.
+
 ## [0.5.0] - 2026-04-25
 ### Added
 - `docs/workflow-model.md` amplía el modelo público con el circuito saneado de revisión de PRs por perímetro: Zoro construye, Franky revisa operación, Chopper revisa seguridad y Usopp revisa diseño/UX cuando corresponde.
