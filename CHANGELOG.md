@@ -5,8 +5,13 @@ Todos los cambios relevantes del escaparate público se documentan aquí.
 Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama pirate-friendly sí. 🏴‍☠️
 
 ## [Unreleased]
+
+## [0.5.1] - 2026-04-26
 ### Changed
 - README, `CONTRIBUTING.md`, `docs/crew-roster.md`, `docs/operations-model.md` y `docs/workflow-model.md` aclaran la custodia por dominio: Zoro mantiene el perímetro técnico y Usopp el mantenimiento editorial del escaparate público.
+
+### Security
+- La aclaración queda en nivel de gobierno público y no publica wiring operativo, rutas internas, perfiles vivos ni mecanismos concretos de coordinación.
 
 ## [0.5.0] - 2026-04-25
 ### Added
