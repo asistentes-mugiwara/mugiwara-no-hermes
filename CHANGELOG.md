@@ -5,8 +5,18 @@ Todos los cambios relevantes del escaparate público se documentan aquí.
 Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama pirate-friendly sí. 🏴‍☠️
 
 ## [Unreleased]
+
+## [0.6.0] - 2026-04-27
+### Added
+- Nuevo documento `docs/control-plane.md` para explicar públicamente, de forma saneada, la existencia del control plane privado de Mugiwara/Hermes y su relación con este escaparate.
+
 ### Changed
+- README, `docs/deployment-status.md`, `docs/operations-safeguards.md` y `docs/stack-and-credits.md` enlazan el modelo público del control plane sin publicar despliegue, configuración viva ni wiring operativo.
+- `docs-check` verifica que el nuevo documento de control plane siga presente.
 - `docs/workflow-model.md` afina la custodia por dominio para que Zoro quede como responsable técnico y Usopp como responsable editorial del escaparate público.
+
+### Security
+- El nuevo contenido se limita a arquitectura y gobierno de alto nivel: no publica URLs privadas, rutas internas, logs, dumps de memoria, secretos, healthchecks reales ni endpoints operativos.
 
 ## [0.5.1] - 2026-04-26
 ### Changed

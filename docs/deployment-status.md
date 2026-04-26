@@ -97,6 +97,18 @@ No todo es “que arranque”. También existen controles ligeros para verificar
 - estado general del sistema
 - errores globales y señales básicas de presión operativa
 
+### Control plane privado
+Además del runtime conversacional, Mugiwara ya cuenta con un proyecto software separado para operar como **control plane privado**.
+
+La parte publicable es deliberadamente limitada:
+
+- existe un repo público de código saneado: [`mugiwara-control-panel`](https://github.com/asistentes-mugiwara/mugiwara-control-panel)
+- su objetivo es observabilidad, navegación y lectura controlada del sistema
+- el despliegue real, la configuración viva, los datos operativos y el acceso privado no se publican aquí
+
+Más contexto público:
+- [`docs/control-plane.md`](control-plane.md)
+
 ## 🧱 Qué significa “activo” en este sistema
 
 En Mugiwara, un agente no pasa a considerarse activo solo porque exista un nombre o un doc.

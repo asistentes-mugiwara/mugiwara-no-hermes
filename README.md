@@ -87,6 +87,7 @@ Si quieres orientarte sin dar vueltas por cubierta, empieza por aquí:
 - [`docs/stack-and-credits.md`](docs/stack-and-credits.md) → stack, capas y créditos con enlaces a los repos originales
 - [`docs/deployment-status.md`](docs/deployment-status.md) → qué partes del sistema están activas hoy
 - [`docs/operations-safeguards.md`](docs/operations-safeguards.md) → safeguards operativos en versión pública saneada
+- [`docs/control-plane.md`](docs/control-plane.md) → cómo se presenta el control plane privado sin abrir la sala de máquinas
 - [`docs/configuration-model.md`](docs/configuration-model.md) → qué se enseña de configuración y qué se queda privado
 - [`docs/autonomy-model.md`](docs/autonomy-model.md) → qué puede decidir Zoro sin invocar al capitán
 - [`docs/release-policy.md`](docs/release-policy.md) → cómo se versiona esta aventura editorial
@@ -121,6 +122,7 @@ El sistema se apoya en piezas y capas con responsabilidades distintas:
 - **Engram** → memoria técnica viva por proyecto
 - **Honcho** → memoria relacional compartida
 - **Vault** → canon duradero y curado
+- **Control Panel** → consola privada de observabilidad y navegación, con código público saneado
 - **Git + GitHub** → trazabilidad, revisión y publicación
 
 Más contexto y créditos con enlaces a los proyectos originales:
@@ -187,7 +189,7 @@ Más detalle:
 - mantenimiento editorial: `usopp`
 - política de publicación: `deny-by-default`
 - estilo editorial: épica técnica con humor Mugiwara y emojis con cabeza ⚔️
-- versión editorial actual: `v0.5.1`
+- versión editorial actual: `v0.6.0`
 
 ## 🤝 Cómo contribuir
 

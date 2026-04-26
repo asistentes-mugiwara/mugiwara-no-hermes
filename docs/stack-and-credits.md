@@ -54,6 +54,14 @@ Aquí viven summaries, decisiones estables, playbooks y conocimiento compartible
 
 > Nota: el vault aquí es una capa propia del sistema Mugiwara, no un proyecto externo con repo público de referencia.
 
+### Mugiwara Control Panel
+**Rol en el sistema:** proyecto hermano para observabilidad y navegación privada de Mugiwara/Hermes.
+
+Su código público ayuda a enseñar arquitectura y gobierno, pero su despliegue real, configuración viva y datos operativos siguen fuera del escaparate.
+
+- Repo público: [asistentes-mugiwara/mugiwara-control-panel](https://github.com/asistentes-mugiwara/mugiwara-control-panel)
+- Modelo público: [`docs/control-plane.md`](control-plane.md)
+
 ### Git + GitHub
 **Rol en el sistema:** trazabilidad, revisión, versionado y publicación.
 

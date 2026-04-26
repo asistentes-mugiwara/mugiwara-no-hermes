@@ -66,7 +66,22 @@ Sin entrar en detalle sensible, hay verificaciones sobre cosas como:
 
 La idea no es montar una nave espacial de observabilidad, sino detectar pronto si algo deja de flotar.
 
-## 5. Backups y continuidad
+## 5. Control plane con frontera clara
+
+Mugiwara también cuenta con un proyecto de control plane privado para observabilidad y navegación del sistema.
+
+La safeguard importante no es “tener una consola bonita”. Es que esa consola se diseñe con frontera clara:
+
+- código público saneado, despliegue privado
+- lectura controlada antes que escritura peligrosa
+- allowlists antes que exploración libre del host
+- estados degradados honestos antes que telemetría fingida
+- nada de logs, dumps, secretos ni rutas sensibles en la capa pública
+
+Más contexto público:
+- [`docs/control-plane.md`](control-plane.md)
+
+## 6. Backups y continuidad
 
 También hay una capa de continuidad operativa:
 
@@ -77,7 +92,7 @@ También hay una capa de continuidad operativa:
 
 No publicamos el wiring exacto de ese pipeline, pero sí el hecho importante: **la continuidad no depende de cruzar los dedos**.
 
-## 6. Gobierno editorial deny-by-default
+## 7. Gobierno editorial deny-by-default
 
 El repo público vive bajo una regla que también es una safeguard operativa:
 
@@ -87,7 +102,7 @@ El repo público vive bajo una regla que también es una safeguard operativa:
 
 Esto protege tanto la superficie pública como la calidad del escaparate.
 
-## 7. Verificación antes de cierre
+## 8. Verificación antes de cierre
 
 En Mugiwara, cerrar no es solo “me gusta cómo suena”.
 Cerrar implica una verificación razonable del cambio:
