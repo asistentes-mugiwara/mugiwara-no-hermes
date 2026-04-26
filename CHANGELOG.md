@@ -5,6 +5,8 @@ Todos los cambios relevantes del escaparate público se documentan aquí.
 Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama pirate-friendly sí. 🏴‍☠️
 
 ## [Unreleased]
+### Changed
+- `docs/workflow-model.md` afina la custodia por dominio para que Zoro quede como responsable técnico y Usopp como responsable editorial del escaparate público.
 
 ## [0.5.1] - 2026-04-26
 ### Changed

@@ -17,13 +17,14 @@ Su papel es:
 - marcar rumbo cuando hay conflicto o ambigüedad estratégica
 
 ### 2. Delegación a especialistas
-Cuando el trabajo es claramente técnico o editorial, entra la tripulación adecuada:
+Cuando el trabajo cae en un dominio claro, entra la tripulación adecuada:
 
-- **Zoro** para software, arquitectura, docs técnicas y gobierno del repo
+- **Zoro** para software, arquitectura, docs técnicas, verify y releases
+- **Usopp** para framing público, onboarding, tono, copy visible y legibilidad del escaparate
 - **Franky** cuando hacen falta automatización, sistemas o workflows de soporte
 - otros Mugiwara cuando el dominio lo pida
 
-Aquí lo importante no es enseñar el runtime interno completo, sino dejar claro que **la responsabilidad se delega con criterio**.
+Aquí lo importante no es enseñar el runtime interno completo, sino dejar claro que **la responsabilidad se delega con criterio y dueño reconocible**.
 
 ### 3. Clasificar valor y riesgo
 Antes de tocar nada, se pregunta:
@@ -86,9 +87,9 @@ Si no lo pasa, se corta sin drama, aunque el texto “quedase increíble”.
 - arbitraje cuando la decisión ya no es solo técnica
 
 ### Zoro
-- custodio técnico/editorial del repo
-- responsable principal de estructurar, verificar y publicar
-- último filtro de claridad y saneado en este escaparate
+- custodio técnico del repo
+- responsable principal de arquitectura pública, verify y releases
+- filtro de precisión técnica y saneado cuando el cambio toca estructura, ejemplos o riesgo operativo
 
 ### Franky
 - apoyo en automatización, tooling y workflows de soporte
