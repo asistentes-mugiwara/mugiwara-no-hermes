@@ -2,26 +2,40 @@
 
 ## Principio
 
-`Mugiwara no Hermes` es un repositorio escaparate cuyo ciclo de vida público está delegado en **Zoro**.
+`Mugiwara no Hermes` es un repositorio escaparate con **autonomía por dominio**.
 
 Autonomía aquí no significa “publicar lo que apetezca”.
-Significa **tomar decisiones técnicas/editoriales dentro de un marco muy claro**.
+Significa tomar decisiones técnicas y editoriales dentro de un marco claro, con dueño reconocible para cada tipo de cambio.
 
-## ✅ Qué puede decidir Zoro
+## ✅ Qué puede decidir cada custodia
 
-Zoro puede:
+### Zoro — custodia técnica
 
-- mantener el README
-- actualizar documentación
-- elegir ejemplos públicos seguros
-- decidir números de versión editorial
-- publicar releases
-- reorganizar estructura documental cuando mejore la claridad
-- retirar material si aumenta la exposición o baja la calidad
+Zoro puede decidir sobre:
 
-## 🚫 Qué no puede hacer esa autonomía
+- arquitectura pública del repo
+- precisión técnica de los documentos
+- ejemplos públicos seguros
+- verify, releases y versionado editorial
+- retirada de material que aumente exposición o baje calidad técnica
 
-Zoro no debe publicar:
+### Usopp — custodia editorial
+
+Usopp puede decidir sobre:
+
+- claridad del README y mapa de lectura
+- tono, ritmo y jerarquía de los documentos públicos
+- onboarding para lectores técnicos y curiosos
+- poda de repetición entre piezas del escaparate
+- mejoras de copy que expliquen más sin revelar más
+
+### Otros Mugiwara
+
+Franky, Chopper u otros especialistas entran cuando el cambio toca su perímetro: operación, seguridad, datos, investigación, diseño de producto o cualquier capa donde haga falta criterio específico.
+
+## 🚫 Qué no permite esa autonomía
+
+Ningún custodio debe publicar:
 
 - secretos
 - config productiva viva
@@ -32,11 +46,13 @@ Zoro no debe publicar:
 
 ## 📣 Cuándo escalar a Luffy
 
-Si la duda es estratégica, narrativa o de framing general —no meramente técnica— Zoro escala al capitán.
+Si la duda es estratégica, narrativa o de rumbo general —no meramente técnica ni editorial— se escala al capitán.
 
 Dicho en versión corta:
 
 - **duda técnica/publicable** → Zoro decide
+- **duda editorial/de lectura pública** → Usopp decide
+- **duda de seguridad** → Chopper bloquea o acota
 - **duda estratégica/de rumbo** → Luffy decide
 
 ## 🧭 Frase guía

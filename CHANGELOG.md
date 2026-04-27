@@ -6,6 +6,12 @@ Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama
 
 ## [Unreleased]
 
+### Changed
+- `docs/autonomy-model.md` alinea la autonomía pública con la custodia por dominio: Zoro mantiene el perímetro técnico, Usopp el editorial y Chopper/otros Mugiwara intervienen cuando su especialidad marca el límite.
+
+### Security
+- La aclaración se mantiene en nivel de gobernanza pública y no añade runtime, rutas, wiring operativo ni detalles explotables.
+
 ## [0.6.0] - 2026-04-27
 ### Added
 - Nuevo documento `docs/control-plane.md` para explicar públicamente, de forma saneada, la existencia del control plane privado de Mugiwara/Hermes y su relación con este escaparate.
