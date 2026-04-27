@@ -72,7 +72,9 @@ Mugiwara también cuenta con un proyecto de control plane privado para observabi
 
 La safeguard importante no es “tener una consola bonita”. Es que esa consola se diseñe con frontera clara:
 
-- código público saneado, despliegue privado
+- código público saneado, despliegue privado operativo
+- interfaz dentro de perímetro privado, no superficie abierta
+- API tras frontera interna, no endpoint público genérico
 - lectura controlada antes que escritura peligrosa
 - allowlists antes que exploración libre del host
 - estados degradados honestos antes que telemetría fingida

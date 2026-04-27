@@ -189,7 +189,7 @@ Más detalle:
 - mantenimiento editorial: `usopp`
 - política de publicación: `deny-by-default`
 - estilo editorial: épica técnica con humor Mugiwara y emojis con cabeza ⚔️
-- versión editorial actual: `v0.6.0`
+- versión editorial actual: `v0.6.1`
 
 ## 🤝 Cómo contribuir
 

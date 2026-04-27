@@ -104,7 +104,8 @@ La parte publicable es deliberadamente limitada:
 
 - existe un repo público de código saneado: [`mugiwara-control-panel`](https://github.com/asistentes-mugiwara/mugiwara-control-panel)
 - su objetivo es observabilidad, navegación y lectura controlada del sistema
-- el despliegue real, la configuración viva, los datos operativos y el acceso privado no se publican aquí
+- su despliegue privado ya está operativo como consola interna, sin convertirlo en superficie pública abierta
+- el wiring real, la configuración viva, los datos operativos y el acceso privado no se publican aquí
 
 Más contexto público:
 - [`docs/control-plane.md`](control-plane.md)

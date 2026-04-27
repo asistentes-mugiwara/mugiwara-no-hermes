@@ -6,11 +6,14 @@ Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama
 
 ## [Unreleased]
 
+## [0.6.1] - 2026-04-28
 ### Changed
 - `docs/autonomy-model.md` alinea la autonomía pública con la custodia por dominio: Zoro mantiene el perímetro técnico, Usopp el editorial y Chopper/otros Mugiwara intervienen cuando su especialidad marca el límite.
+- `docs/control-plane.md`, `docs/deployment-status.md`, `docs/operations-safeguards.md` y `docs/stack-and-credits.md` actualizan el estado público del control plane: ya tiene despliegue privado operativo, manteniendo fuera del escaparate el wiring, la configuración viva y los datos reales.
+- README actualiza la versión editorial a `v0.6.1`.
 
 ### Security
-- La aclaración se mantiene en nivel de gobernanza pública y no añade runtime, rutas, wiring operativo ni detalles explotables.
+- La actualización solo publica madurez operativa de alto nivel: no añade puertos, hosts, rutas internas, unidades reales, logs, healthchecks crudos, memoria viva, `.env`, secretos ni detalles suficientes para reconstruir el despliegue.
 
 ## [0.6.0] - 2026-04-27
 ### Added

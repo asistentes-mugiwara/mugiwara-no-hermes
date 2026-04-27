@@ -72,10 +72,18 @@ La relación sana entre ambos es esta:
 
 ## Estado público actual
 
-El control plane ya existe como proyecto software público separado, pero su uso real sigue siendo privado y saneado.
+El control plane ya no es solo una pieza planificada o un repo de código: tiene un **despliegue privado operativo** para observabilidad y navegación interna.
+
+La versión pública de ese estado se cuenta con brocha gruesa, porque el detalle fino pertenece al sistema vivo:
+
+- la interfaz se consume desde un perímetro privado
+- la API queda detrás de una frontera interna, no como API pública abierta
+- las superficies de lectura priorizan dashboard, tripulación, memoria, vault, healthcheck, uso agregado y Git en modo controlado
+- las escrituras siguen restringidas a capacidades explícitas y revisadas
+- los estados degradados se muestran como degradados, no como telemetría mágica
 
 La señal importante para el escaparate es esta:
 
-> Mugiwara está pasando de “agentes bien definidos” a “sistema observable y gobernable”, sin abandonar la regla de no publicar más de la cuenta.
+> Mugiwara ya está pasando de “agentes bien definidos” a “sistema observable y gobernable”, sin abandonar la regla de no publicar más de la cuenta.
 
 Eso es un avance de madurez, no una invitación a abrir la bodega. 🛡️
