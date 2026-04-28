@@ -122,6 +122,7 @@ El sistema se apoya en piezas y capas con responsabilidades distintas:
 - **Engram** → memoria técnica viva por proyecto
 - **Honcho** → memoria relacional compartida
 - **Vault** → canon duradero y curado
+- **Skills gobernadas** → capacidades reutilizables separadas por dominio y mantenidas como catálogo controlado
 - **Control Panel** → consola privada de observabilidad y navegación, con código público saneado
 - **Git + GitHub** → trazabilidad, revisión y publicación
 
@@ -189,7 +190,7 @@ Más detalle:
 - mantenimiento editorial: `usopp`
 - política de publicación: `deny-by-default`
 - estilo editorial: épica técnica con humor Mugiwara y emojis con cabeza ⚔️
-- versión editorial actual: `v0.6.1`
+- versión editorial actual: `v0.6.2`
 
 ## 🤝 Cómo contribuir
 

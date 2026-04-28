@@ -52,7 +52,20 @@ Esto reduce mezcla peligrosa entre:
 - decisiones estables
 - artefactos públicos
 
-## 4. Healthchecks ligeros
+## 4. Skills como catálogo gobernado
+
+Las skills son capacidades reutilizables, no conjuros sueltos que cualquiera mete en cualquier mochila.
+
+La safeguard pública es sencilla:
+
+- las capacidades se ordenan por dominio y agente responsable
+- las skills comunes se promueven solo cuando son realmente transversales
+- el catálogo se revisa para evitar duplicados, drift o piezas obsoletas
+- no se publica el inventario vivo completo ni el mecanismo interno de carga
+
+Así el sistema puede reutilizar conocimiento operativo sin convertir el escaparate en un índice sensible de capacidades internas.
+
+## 5. Healthchecks ligeros
 
 El sistema ya usa comprobaciones periódicas para evitar una operativa “a ojo”.
 
@@ -66,7 +79,7 @@ Sin entrar en detalle sensible, hay verificaciones sobre cosas como:
 
 La idea no es montar una nave espacial de observabilidad, sino detectar pronto si algo deja de flotar.
 
-## 5. Control plane con frontera clara
+## 6. Control plane con frontera clara
 
 Mugiwara también cuenta con un proyecto de control plane privado para observabilidad y navegación del sistema.
 
@@ -83,7 +96,7 @@ La safeguard importante no es “tener una consola bonita”. Es que esa consola
 Más contexto público:
 - [`docs/control-plane.md`](control-plane.md)
 
-## 6. Backups y continuidad
+## 7. Backups y continuidad
 
 También hay una capa de continuidad operativa:
 
@@ -94,7 +107,7 @@ También hay una capa de continuidad operativa:
 
 No publicamos el wiring exacto de ese pipeline, pero sí el hecho importante: **la continuidad no depende de cruzar los dedos**.
 
-## 7. Gobierno editorial deny-by-default
+## 8. Gobierno editorial deny-by-default
 
 El repo público vive bajo una regla que también es una safeguard operativa:
 
@@ -104,7 +117,7 @@ El repo público vive bajo una regla que también es una safeguard operativa:
 
 Esto protege tanto la superficie pública como la calidad del escaparate.
 
-## 8. Verificación antes de cierre
+## 9. Verificación antes de cierre
 
 En Mugiwara, cerrar no es solo “me gusta cómo suena”.
 Cerrar implica una verificación razonable del cambio:

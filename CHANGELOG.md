@@ -6,6 +6,14 @@ Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama
 
 ## [Unreleased]
 
+## [0.6.2] - 2026-04-28
+### Changed
+- README, `docs/deployment-status.md`, `docs/operations-safeguards.md` y `docs/stack-and-credits.md` explican en versión pública saneada que las skills forman una capa gobernada de capacidades reutilizables, separada por dominio y tratada como catálogo controlado.
+- README actualiza la versión editorial a `v0.6.2`.
+
+### Security
+- La actualización no publica rutas internas, inventarios vivos de skills, configuración de perfiles, prompts, automatismos sensibles ni wiring operativo; solo añade el principio público de gobierno de capacidades.
+
 ## [0.6.1] - 2026-04-28
 ### Changed
 - `docs/autonomy-model.md` alinea la autonomía pública con la custodia por dominio: Zoro mantiene el perímetro técnico, Usopp el editorial y Chopper/otros Mugiwara intervienen cuando su especialidad marca el límite.

@@ -79,6 +79,16 @@ El modelo de memoria no es solo teórico. Ya hay una separación real entre:
 - **Engram** como memoria viva técnica por proyecto
 - **vault** como canon duradero y curado
 
+### Skills gobernadas
+Las capacidades reutilizables de la tripulación tampoco viven como notas sueltas en la cubierta.
+
+A nivel público, la señal útil es esta:
+
+- las skills se tratan como **catálogo gobernado**
+- hay separación por dominio y por agente responsable
+- la promoción a capacidades comunes exige criterio, uso real y saneado
+- el inventario vivo, las rutas internas y el wiring de carga no se publican
+
 ### Automatización recurrente
 También hay automatización viva en la máquina para tareas como:
 

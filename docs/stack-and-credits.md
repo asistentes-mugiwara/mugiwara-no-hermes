@@ -54,6 +54,11 @@ Aquí viven summaries, decisiones estables, playbooks y conocimiento compartible
 
 > Nota: el vault aquí es una capa propia del sistema Mugiwara, no un proyecto externo con repo público de referencia.
 
+### Skills gobernadas
+**Rol en el sistema:** catálogo de capacidades reutilizables, separadas por dominio y agente responsable.
+
+Las skills ayudan a que aprendizajes operativos, flujos probados y criterios específicos no dependan de la memoria improvisada de una sesión. La parte pública es el principio de gobierno; el inventario vivo y los detalles internos de carga se quedan fuera.
+
 ### Mugiwara Control Panel
 **Rol en el sistema:** proyecto hermano para observabilidad y navegación privada de Mugiwara/Hermes.
 
