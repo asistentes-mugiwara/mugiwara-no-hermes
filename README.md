@@ -99,10 +99,24 @@ La explicación pública se apoya en estas capas:
 - **Honcho** → memoria relacional compartida
 - **Vault** → canon duradero y curado
 - **Skills gobernadas** → catálogo de capacidades reutilizables por dominio
-- **Control Panel** → consola privada de observabilidad y navegación, con código público saneado
+- **[Control Panel](https://github.com/asistentes-mugiwara/mugiwara-control-panel)** → consola privada de observabilidad y navegación, con código público saneado
 - **Git + GitHub** → trazabilidad, revisión y publicación
 
 Créditos y enlaces: [`docs/stack-and-credits.md`](docs/stack-and-credits.md).
+
+## 🕹️ Proyecto hermano: Mugiwara Control Panel
+
+El escaparate cuenta el mapa; el **[Mugiwara Control Panel](https://github.com/asistentes-mugiwara/mugiwara-control-panel)** enseña una pieza navegable del barco.
+
+Es una consola privada para observar Mugiwara/Hermes con prudencia: dashboard, tripulación, skills, memoria, vault, healthchecks, repos Git y uso agregado. Su README incluye **capturas públicas saneadas** para mostrar la experiencia visual sin publicar datos vivos, logs, rutas internas ni configuración operativa.
+
+La frontera es deliberada:
+
+- aquí se explica el modelo público del sistema;
+- allí se desarrolla el control plane como producto software;
+- en ambos casos manda la misma regla: claridad sí, exposición innecesaria no.
+
+Más contexto: [`docs/control-plane.md`](docs/control-plane.md).
 
 ## 🖼️ Mapa visual
 
