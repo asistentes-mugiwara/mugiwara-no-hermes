@@ -5,6 +5,11 @@ Todos los cambios relevantes del escaparate público se documentan aquí.
 Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama pirate-friendly sí. 🏴‍☠️
 
 ## [Unreleased]
+### Changed
+- README comprimido como portada editorial: mantiene propuesta de valor, mapa de lectura, frontera sistema/escaparate, tripulación y stack, pero reduce repetición con docs temáticos y mejora el onboarding inicial.
+
+### Security
+- La poda editorial no añade runtime, rutas internas, configuración viva, memoria real ni nuevos detalles reconstructivos; solo reorganiza información ya pública.
 
 ## [0.6.2] - 2026-04-28
 ### Changed
