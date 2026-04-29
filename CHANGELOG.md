@@ -5,6 +5,8 @@ Todos los cambios relevantes del escaparate público se documentan aquí.
 Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama pirate-friendly sí. 🏴‍☠️
 
 ## [Unreleased]
+
+## [0.6.3] - 2026-04-29
 ### Changed
 - README comprimido como portada editorial: mantiene propuesta de valor, mapa de lectura, frontera sistema/escaparate, tripulación y stack, pero reduce repetición con docs temáticos y mejora el onboarding inicial.
 - README añade una sección de proyecto hermano para `mugiwara-control-panel`, con enlace al repositorio público y explicación de sus capturas revisadas.
