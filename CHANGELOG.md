@@ -7,9 +7,12 @@ Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama
 ## [Unreleased]
 ### Changed
 - README comprimido como portada editorial: mantiene propuesta de valor, mapa de lectura, frontera sistema/escaparate, tripulación y stack, pero reduce repetición con docs temáticos y mejora el onboarding inicial.
+- README añade una sección de proyecto hermano para `mugiwara-control-panel`, con enlace al repositorio público y explicación de sus capturas saneadas.
+- `docs/control-plane.md` amplía la descripción pública del control panel con dashboard, skills, memoria, vault, healthcheck, Git, uso agregado y criterio visual saneado.
 
 ### Security
 - La poda editorial no añade runtime, rutas internas, configuración viva, memoria real ni nuevos detalles reconstructivos; solo reorganiza información ya pública.
+- La referencia a capturas del control panel queda limitada a imágenes saneadas que preservan layout y ocultan datos vivos, métricas privadas, logs y contenido operativo.
 
 ## [0.6.2] - 2026-04-28
 ### Changed
