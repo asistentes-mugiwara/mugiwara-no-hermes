@@ -24,7 +24,7 @@ Su misión pública se puede resumir así:
 - consultar skills, memoria y vault como capas separadas, no como un cajón desastre
 - observar healthchecks, repos Git y señales de uso sin publicar logs, dumps ni métricas crudas
 - mantener una frontera clara entre lectura segura y acciones permitidas
-- enseñar una línea visual reconocible mediante capturas saneadas, sin abrir datos vivos
+- enseñar una línea visual reconocible mediante capturas revisadas, sin abrir secretos ni configuración operativa
 
 Dicho en idioma de cubierta: mirar la brújula está bien; regalar el mapa completo de la sala de máquinas, no. ⚓
 
@@ -71,7 +71,7 @@ La relación sana entre ambos es esta:
 - ambos mantienen política pública estricta
 - ninguno debe filtrar el runtime privado
 
-El README del control panel funciona ahora como pequeña cubierta de producto: describe la consola con más energía, enlaza este escaparate y muestra capturas públicas saneadas de sus páginas principales. Esas imágenes son deliberadamente borrosas en la zona de datos: sirven para enseñar dirección visual, navegación y composición, no para publicar telemetría, contenido de vault, memoria real ni estados internos.
+El README del control panel funciona ahora como pequeña cubierta de producto: describe la consola con más energía, enlaza este escaparate y muestra capturas reales revisadas de sus páginas principales. Esas imágenes sirven para enseñar dirección visual, navegación y composición en un corte concreto, manteniendo fuera secretos, credenciales y configuración operativa.
 
 ## Estado público actual
 
