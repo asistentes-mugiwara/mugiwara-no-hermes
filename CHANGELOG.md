@@ -5,6 +5,8 @@ Todos los cambios relevantes del escaparate público se documentan aquí.
 Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama pirate-friendly sí. 🏴‍☠️
 
 ## [Unreleased]
+
+## [0.6.4] - 2026-04-30
 ### Changed
 - `docs/architecture.md` evita duplicar el roster y formula mejor la regla pública de diseño: agentes por dominio, perímetro reconocible y límites de publicación claros.
 - `docs/crew-roster.md` aclara la diferencia entre núcleo transversal y especialistas activos por dominio, sin sugerir que solo una parte de la tripulación esté operativa.
