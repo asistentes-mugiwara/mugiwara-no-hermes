@@ -10,11 +10,13 @@ La capa de ejecución: perfiles, herramientas, automatización y superficie oper
 ### 2. Tripulación Mugiwara
 Los agentes especializados no son “skins” del mismo bot con distinto peinado. Cada uno tiene alcance, criterios y contrato operativo propios.
 
-Ejemplos del núcleo actual:
+La arquitectura pública no necesita repetir aquí todo el roster. Lo importante es la regla de diseño:
 
-- **Luffy** → coordinación, priorización y cierre ejecutivo
-- **Zoro** → software, arquitectura, implementación y verify técnico
-- **Franky** → infraestructura, automatización y sistemas
+- **Luffy** marca rumbo y prioridad cuando el problema es transversal.
+- **Zoro**, **Franky**, **Usopp**, **Chopper** y el resto entran por dominio, no por turno decorativo.
+- cada agente debe tener un perímetro reconocible, una forma de verificar su trabajo y límites claros sobre lo que no debe publicar.
+
+El reparto completo vive en [`docs/crew-roster.md`](crew-roster.md).
 
 ### 3. Canon compartido
 El vault curado actúa como historia oficial del barco: decisiones estables, summaries y conocimiento reutilizable.

@@ -4,7 +4,9 @@
 
 Mugiwara funciona mejor cuando cada miembro tiene un rol claro. Aquí no hay “hazlo todo” con bigote postizo: hay especialización, límites y responsabilidad.
 
-## ⚙️ Núcleo operativo actual
+## ⚙️ Núcleo transversal
+
+Estos roles sostienen la dirección, la arquitectura y la maquinaria base del sistema. No son “más activos” que el resto; son el eje transversal sobre el que se apoyan muchas decisiones.
 
 ### Luffy — capitán
 - coordina prioridades
@@ -22,7 +24,9 @@ Mugiwara funciona mejor cuando cada miembro tiene un rol claro. Aquí no hay “
 - refuerza automatización, Linux, despliegues y tooling
 - construye la maquinaria para que el barco no cruja al primer temporal
 
-## 🌍 Especialistas ya activos
+## 🌍 Especialistas activos por dominio
+
+El resto de la tripulación también está activo, pero su valor aparece cuando el problema cae en su cubierta concreta: finanzas, research, seguridad, datos, compras, legal o comunicación pública.
 
 ### Nami — finanzas y reporting
 - ordena números, reporting y control económico
