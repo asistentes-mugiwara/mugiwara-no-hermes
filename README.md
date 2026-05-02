@@ -56,6 +56,7 @@ Regla práctica:
 - [`docs/system-vs-showcase.md`](docs/system-vs-showcase.md) → frontera entre sistema vivo y escaparate
 
 ### Para entender gobierno y publicación
+- [`docs/operations-model.md`](docs/operations-model.md) → quién custodia cada tipo de decisión pública
 - [`docs/workflow-model.md`](docs/workflow-model.md) → cómo se decide, sanea, verifica y publica
 - [`docs/autonomy-model.md`](docs/autonomy-model.md) → qué puede decidir cada custodia de dominio
 - [`docs/publishing-policy.md`](docs/publishing-policy.md) → qué puede zarpar y qué se queda en puerto

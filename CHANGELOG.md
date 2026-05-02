@@ -5,6 +5,11 @@ Todos los cambios relevantes del escaparate público se documentan aquí.
 Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama pirate-friendly sí. 🏴‍☠️
 
 ## [Unreleased]
+### Changed
+- README añade `docs/operations-model.md` al mapa de lectura para que la custodia por dominio tenga una entrada visible desde la portada.
+
+### Security
+- Cambio de navegación editorial: no añade runtime, configuración viva, rutas internas ni detalle reconstructivo.
 
 ## [0.6.4] - 2026-04-30
 ### Changed
