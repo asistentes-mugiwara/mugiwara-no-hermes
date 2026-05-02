@@ -57,7 +57,7 @@ Aquí viven summaries, decisiones estables, playbooks y conocimiento compartible
 ### Skills gobernadas
 **Rol en el sistema:** catálogo de capacidades reutilizables, separadas por dominio y agente responsable.
 
-Las skills ayudan a que aprendizajes operativos, flujos probados y criterios específicos no dependan de la memoria improvisada de una sesión. La parte pública es el principio de gobierno; el inventario vivo y los detalles internos de carga se quedan fuera.
+Las skills ayudan a que aprendizajes operativos, flujos probados y criterios específicos no dependan de la memoria improvisada de una sesión. El principio público es separar los espacios runtime privados del canon gobernado y promocionar capacidades solo tras revisión; el inventario vivo y los detalles internos de carga se quedan fuera.
 
 ### Mugiwara Control Panel
 **Rol en el sistema:** proyecto hermano para observabilidad y navegación privada de Mugiwara/Hermes.

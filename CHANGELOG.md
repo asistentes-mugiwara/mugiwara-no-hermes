@@ -5,11 +5,16 @@ Todos los cambios relevantes del escaparate público se documentan aquí.
 Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama pirate-friendly sí. 🏴‍☠️
 
 ## [Unreleased]
+
+## [0.6.5] - 2026-05-02
 ### Changed
 - README añade `docs/operations-model.md` al mapa de lectura para que la custodia por dominio tenga una entrada visible desde la portada.
+- `docs/operations-safeguards.md`, `docs/deployment-status.md` y `docs/stack-and-credits.md` aclaran el principio público de separación entre espacios runtime privados de skills y canon gobernado.
+- README actualiza la versión editorial a `v0.6.5`.
 
 ### Security
-- Cambio de navegación editorial: no añade runtime, configuración viva, rutas internas ni detalle reconstructivo.
+- La aclaración evita publicar rutas internas, configuración de carga, inventario vivo de skills o automatismos concretos; solo documenta el principio de revisión antes de canonizar capacidades.
+- El cambio de navegación editorial no añade runtime, configuración viva, rutas internas ni detalle reconstructivo.
 
 ## [0.6.4] - 2026-04-30
 ### Changed

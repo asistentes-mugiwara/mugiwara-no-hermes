@@ -59,7 +59,8 @@ Las skills son capacidades reutilizables, no conjuros sueltos que cualquiera met
 La safeguard pública es sencilla:
 
 - las capacidades se ordenan por dominio y agente responsable
-- las skills comunes se promueven solo cuando son realmente transversales
+- los espacios runtime privados y el canon gobernado se mantienen separados
+- las skills comunes se promueven solo cuando son realmente transversales y han pasado revisión
 - el catálogo se revisa para evitar duplicados, drift o piezas obsoletas
 - no se publica el inventario vivo completo ni el mecanismo interno de carga
 

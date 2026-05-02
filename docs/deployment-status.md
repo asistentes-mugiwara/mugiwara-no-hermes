@@ -86,6 +86,7 @@ A nivel público, la señal útil es esta:
 
 - las skills se tratan como **catálogo gobernado**
 - hay separación por dominio y por agente responsable
+- los espacios runtime privados no son el canon público ni se promocionan sin revisión
 - la promoción a capacidades comunes exige criterio, uso real y saneado
 - el inventario vivo, las rutas internas y el wiring de carga no se publican
 
