@@ -16,6 +16,7 @@ jobs:
           test -f README.md
           test -f SECURITY.md
           test -f CHANGELOG.md
+          test -f CONTRIBUTING.md
           test -f public-assets/diagrams/hermes-mugiwara-system-map.svg
           test -f docs/overview.md
           test -f docs/architecture.md
@@ -25,6 +26,7 @@ jobs:
           test -f docs/operations-safeguards.md
           test -f docs/system-vs-showcase.md
           test -f docs/control-plane.md
+          test -f docs/operations-model.md
           test -f docs/publishing-policy.md
           test -f docs/release-policy.md
           test -f docs/autonomy-model.md

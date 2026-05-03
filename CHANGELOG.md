@@ -5,6 +5,11 @@ Todos los cambios relevantes del escaparate público se documentan aquí.
 Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama pirate-friendly sí. 🏴‍☠️
 
 ## [Unreleased]
+### Changed
+- `docs-check` protege también `CONTRIBUTING.md` y `docs/operations-model.md`, alineando la verificación con el mapa editorial público del README.
+
+### Security
+- El ajuste solo amplía la cobertura de presencia documental; no publica runtime, configuración viva, rutas internas ni superficie reconstructiva.
 
 ## [0.6.5] - 2026-05-02
 ### Changed
