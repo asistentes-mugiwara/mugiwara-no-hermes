@@ -1,4 +1,4 @@
-# 🕹️ Control Plane Público Saneado
+# 🕹️ Control Plane: código público, uso privado
 
 ## Idea central
 
@@ -44,7 +44,7 @@ Este documento cuenta el **modelo público** del control plane:
 
 - existe como proyecto software oficial
 - se diseña para observabilidad y navegación privada
-- usa allowlists y saneado como frontera
+- usa allowlists y revisión editorial como frontera
 - separa código público de despliegue privado
 - conserva una política de exposición estricta
 

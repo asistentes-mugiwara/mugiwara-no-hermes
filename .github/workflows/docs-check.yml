@@ -32,3 +32,4 @@ jobs:
           test -f docs/autonomy-model.md
           test -f docs/configuration-model.md
           test -f docs/workflow-model.md
+          test -f examples/public-demo-config.yaml

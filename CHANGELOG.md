@@ -7,9 +7,12 @@ Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama
 ## [Unreleased]
 ### Changed
 - `docs-check` protege también `CONTRIBUTING.md` y `docs/operations-model.md`, alineando la verificación con el mapa editorial público del README.
+- `docs-check` protege también el ejemplo público dummy enlazado desde el README.
+- `docs/control-plane.md` renombra su apertura para explicar mejor la frontera: código público, uso privado.
 
 ### Security
 - El ajuste solo amplía la cobertura de presencia documental; no publica runtime, configuración viva, rutas internas ni superficie reconstructiva.
+- La mejora del control plane es solo de framing editorial; no añade hosts, despliegue, credenciales, datos vivos ni detalle operativo.
 
 ## [0.6.5] - 2026-05-02
 ### Changed
