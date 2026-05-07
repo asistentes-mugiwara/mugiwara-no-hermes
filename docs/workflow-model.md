@@ -51,6 +51,8 @@ El cambio se refleja en la capa pública adecuada:
 - changelog si cambia el valor público del escaparate
 - release si hay salto narrativo/editorial claro
 
+Cuando el cambio es software, Zoro puede aplicar un ciclo SDD público: exploración, propuesta, spec, diseño, tareas, TDD, verify y archivo. El detalle seguro vive en [`docs/sdd-model.md`](sdd-model.md); el runtime interno no se publica.
+
 ### 6. Verify
 Antes de publicar, el cambio debe pasar una verificación razonable.
 En este repo eso significa, como mínimo:
@@ -129,5 +131,6 @@ Describe la **versión pública y segura** del movimiento del barco.
 - [`docs/publishing-policy.md`](publishing-policy.md)
 - [`docs/operations-model.md`](operations-model.md)
 - [`docs/autonomy-model.md`](autonomy-model.md)
+- [`docs/sdd-model.md`](sdd-model.md)
 - [`docs/release-policy.md`](release-policy.md)
 - [`docs/configuration-model.md`](configuration-model.md)

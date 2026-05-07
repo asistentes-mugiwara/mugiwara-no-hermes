@@ -20,9 +20,9 @@ Sin Hermes no hay cubierta donde la tripulación pueda trabajar con disciplina.
 - Repo original: [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
 
 ### OpenCode
-**Rol en el sistema:** runtime multiagente de software usado especialmente en la capa de trabajo de Zoro.
+**Rol en el sistema:** referencia histórica e influencia operativa para la capa de trabajo software de Zoro.
 
-Aquí aporta ejecución práctica para flujos de implementación, delegación técnica y operación software con estructura.
+Aquí aporta patrones y experiencia práctica para flujos de implementación, delegación técnica y operación software con estructura. La representación pública evita convertir esa historia en un mapa del runtime vivo.
 
 - Repo original: [anomalyco/opencode](https://github.com/anomalyco/opencode)
 
@@ -58,6 +58,13 @@ Aquí viven summaries, decisiones estables, playbooks y conocimiento compartible
 **Rol en el sistema:** catálogo de capacidades reutilizables, separadas por dominio y agente responsable.
 
 Las skills ayudan a que aprendizajes operativos, flujos probados y criterios específicos no dependan de la memoria improvisada de una sesión. El principio público es separar los espacios runtime privados del canon gobernado y promocionar capacidades solo tras revisión; el inventario vivo y los detalles internos de carga se quedan fuera.
+
+### SDD de Zoro
+**Rol en el sistema:** disciplina de entrega software basada en especificar antes de implementar, aplicar con TDD y verificar contra el contrato.
+
+La versión pública explica fases y criterios de calidad; no publica prompts internos, perfiles runtime, rutas privadas ni comandos reconstructivos.
+
+- Modelo público: [`docs/sdd-model.md`](sdd-model.md)
 
 ### Mugiwara Control Panel
 **Rol en el sistema:** proyecto hermano para observabilidad y navegación privada de Mugiwara/Hermes.

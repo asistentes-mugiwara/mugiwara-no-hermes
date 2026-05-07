@@ -33,6 +33,13 @@ No toda memoria merece el mismo destino. El modelo separa:
 Este repositorio vive por encima del sistema real como una capa editorial filtrada.
 No es un espejo; es una versión gobernada, segura y pensada para enseñar sin regalar munición.
 
+### 6. Capa SDD de Zoro
+En el dominio software, Zoro usa una disciplina de **Spec-Driven Development**: explorar, proponer, especificar, diseñar, trocear tareas, aplicar con TDD, verificar y archivar.
+
+La arquitectura pública solo enseña el patrón de gobierno y calidad. Los perfiles runtime, prompts internos, comandos concretos, rutas y wiring operativo se quedan fuera de cubierta.
+
+Más contexto en [`docs/sdd-model.md`](sdd-model.md).
+
 ## ⚙️ Principios de diseño
 
 - **especialización sobre generalismo**

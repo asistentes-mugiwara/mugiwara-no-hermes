@@ -5,14 +5,22 @@ Todos los cambios relevantes del escaparate público se documentan aquí.
 Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama pirate-friendly sí. 🏴‍☠️
 
 ## [Unreleased]
+
+## [0.7.0] - 2026-05-07
+### Added
+- Nuevo `docs/sdd-model.md` para explicar públicamente el modelo SDD de Zoro: exploración, propuesta, spec, diseño, tareas, TDD, verify y archivo.
+- README enlaza el modelo SDD desde el mapa de lectura y actualiza la versión editorial a `v0.7.0`.
+- `docs-check` protege también `docs/sdd-model.md`.
+
 ### Changed
-- `docs-check` protege también `CONTRIBUTING.md` y `docs/operations-model.md`, alineando la verificación con el mapa editorial público del README.
-- `docs-check` protege también el ejemplo público dummy enlazado desde el README.
+- `docs/architecture.md`, `docs/workflow-model.md` y `docs/stack-and-credits.md` incorporan la capa SDD como disciplina pública de entrega software sin exponer runtime interno.
+- OpenCode queda descrito como referencia histórica e influencia operativa, alineando el escaparate con el avance Hermes-native de Zoro.
+- `docs-check` protege también `CONTRIBUTING.md`, `docs/operations-model.md` y el ejemplo público dummy enlazado desde el README.
 - `docs/control-plane.md` renombra su apertura para explicar mejor la frontera: código público, uso privado.
 
 ### Security
-- El ajuste solo amplía la cobertura de presencia documental; no publica runtime, configuración viva, rutas internas ni superficie reconstructiva.
-- La mejora del control plane es solo de framing editorial; no añade hosts, despliegue, credenciales, datos vivos ni detalle operativo.
+- La nueva documentación publica solo fases, criterios de calidad y guardarraíles de SDD; no publica prompts internos, perfiles runtime, rutas, comandos reconstructivos, memoria viva ni wiring operativo.
+- Los ajustes previos de `docs-check` y control plane siguen siendo de cobertura/framing editorial; no añaden hosts, despliegue, credenciales, datos vivos ni detalle operativo.
 
 ## [0.6.5] - 2026-05-02
 ### Changed
