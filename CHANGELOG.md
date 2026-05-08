@@ -5,6 +5,11 @@ Todos los cambios relevantes del escaparate público se documentan aquí.
 Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama pirate-friendly sí. 🏴‍☠️
 
 ## [Unreleased]
+### Changed
+- `docs/system-vs-showcase.md`, `docs/deployment-status.md` y `docs/operations-safeguards.md` sustituyen referencias al soporte físico concreto por una formulación de entorno privado, manteniendo el valor público sin añadir detalle operativo.
+
+### Security
+- La aclaración reduce exposición contextual innecesaria sobre dónde vive el sistema real; no añade rutas, hosts, credenciales, comandos, wiring ni configuración runtime.
 
 ## [0.7.0] - 2026-05-07
 ### Added
@@ -124,7 +129,7 @@ Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama
 
 ## [0.4.0] - 2026-04-22
 ### Added
-- `docs/deployment-status.md` para explicar qué partes del sistema Hermes + Mugiwara están activas hoy en este mini PC.
+- `docs/deployment-status.md` para explicar qué partes del sistema Hermes + Mugiwara están activas hoy en el entorno privado.
 - `docs/operations-safeguards.md` para explicar las salvaguardas operativas reales del sistema en versión pública saneada.
 - `docs/system-vs-showcase.md` para separar explícitamente el sistema vivo del escaparate público.
 - `public-assets/diagrams/hermes-mugiwara-system-map.svg` con un mapa visual del sistema desplegado y su frontera pública.

@@ -2,7 +2,7 @@
 
 ## Idea central
 
-`Mugiwara no Hermes` no es solo una idea bonita con sombrero de paja. En este mini PC ya hay una parte del sistema **realmente montada**.
+`Mugiwara no Hermes` no es solo una idea bonita con sombrero de paja. En el entorno privado ya hay una parte del sistema **realmente montada**.
 
 La gracia de este documento es separar tres cosas que conviene no mezclar:
 
@@ -36,7 +36,7 @@ Toda la tripulación Mugiwara existe en la arquitectura oficial:
 - Jinbe
 
 ### Activos hoy
-En este mini PC, los perfiles activos y operativos hoy son:
+En el entorno privado, los perfiles activos y operativos hoy son:
 
 - **Luffy**
 - **Zoro**
@@ -91,7 +91,7 @@ A nivel público, la señal útil es esta:
 - el inventario vivo, las rutas internas y el wiring de carga no se publican
 
 ### Automatización recurrente
-También hay automatización viva en la máquina para tareas como:
+También hay automatización viva en la infraestructura privada para tareas como:
 
 - sincronización del vault
 - backup nocturno local
@@ -149,6 +149,6 @@ Este documento no publica:
 La conclusión correcta no es “todo detalle de Mugiwara debe publicarse”.
 La conclusión correcta es otra:
 
-> ya existe una base operativa real más amplia y estable en este mini PC, con la tripulación canónica completa activa, pero la publicación pública sigue siendo deliberadamente progresiva y saneada.
+> ya existe una base operativa real más amplia y estable en el entorno privado, con la tripulación canónica completa activa, pero la publicación pública sigue siendo deliberadamente progresiva y saneada.
 
 Y eso, francamente, da más confianza que fingir que el barco entero ya está navegando a velocidad máxima. ⚓

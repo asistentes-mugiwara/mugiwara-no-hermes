@@ -143,7 +143,7 @@ Por seguridad y por higiene operativa, este documento no entra en:
 
 ## 🧠 Lectura final
 
-Las safeguards de este mini PC no buscan impresionar. Buscan algo más importante:
+Las safeguards del entorno privado no buscan impresionar. Buscan algo más importante:
 
 - que el sistema siga estable
 - que cada capa viva donde toca

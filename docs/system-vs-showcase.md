@@ -7,7 +7,7 @@ Es su **escaparate público curado**.
 
 Parece una obviedad, pero conviene dejarlo por escrito porque aquí vive una diferencia importante:
 
-- una cosa es el **sistema real montado en este mini PC**
+- una cosa es el **sistema real funcionando en un entorno privado**
 - otra, la **versión pública que puede enseñarse sin hacer tonterías**
 
 ## 🚢 Qué es el sistema real
