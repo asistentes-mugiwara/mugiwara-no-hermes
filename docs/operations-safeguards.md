@@ -108,7 +108,18 @@ También hay una capa de continuidad operativa:
 
 No publicamos el wiring exacto de ese pipeline, pero sí el hecho importante: **la continuidad no depende de cruzar los dedos**.
 
-## 8. Gobierno editorial deny-by-default
+## 8. Accesos externos bajo autorización expresa
+
+Cuando el sistema necesita tocar recursos fuera de su propio perímetro, la regla pública es conservadora:
+
+- acceso solo por perfiles autorizados para ese dominio
+- permiso explícito para una tarea concreta, no autorización permanente
+- nada de automatizaciones recurrentes hacia recursos externos sin aprobación nueva
+- credenciales, claves, endpoints privados y detalle de conexión siempre fuera del escaparate
+
+Es menos espectacular que gritar “¡a toda vela!”, pero mantiene claro quién puede cruzar cada frontera y cuándo. 🧭
+
+## 9. Gobierno editorial deny-by-default
 
 El repo público vive bajo una regla que también es una safeguard operativa:
 
@@ -118,7 +129,7 @@ El repo público vive bajo una regla que también es una safeguard operativa:
 
 Esto protege tanto la superficie pública como la calidad del escaparate.
 
-## 9. Verificación antes de cierre
+## 10. Verificación antes de cierre
 
 En Mugiwara, cerrar no es solo “me gusta cómo suena”.
 Cerrar implica una verificación razonable del cambio:

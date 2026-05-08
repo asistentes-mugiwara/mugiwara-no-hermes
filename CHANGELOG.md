@@ -5,11 +5,16 @@ Todos los cambios relevantes del escaparate público se documentan aquí.
 Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama pirate-friendly sí. 🏴‍☠️
 
 ## [Unreleased]
+
+## [0.7.1] - 2026-05-08
 ### Changed
 - `docs/system-vs-showcase.md`, `docs/deployment-status.md` y `docs/operations-safeguards.md` sustituyen referencias al soporte físico concreto por una formulación de entorno privado, manteniendo el valor público sin añadir detalle operativo.
+- `docs/operations-safeguards.md` añade el principio público de accesos externos bajo autorización expresa: perfiles autorizados, permiso por tarea y cero automatización recurrente sin aprobación nueva.
+- README actualiza la versión editorial a `v0.7.1`.
 
 ### Security
 - La aclaración reduce exposición contextual innecesaria sobre dónde vive el sistema real; no añade rutas, hosts, credenciales, comandos, wiring ni configuración runtime.
+- La nueva safeguard se publica solo como política de alto nivel; no revela alias, hosts, puertos, usuarios, rutas, claves, endpoints privados ni mecanismos concretos de conexión.
 
 ## [0.7.0] - 2026-05-07
 ### Added
