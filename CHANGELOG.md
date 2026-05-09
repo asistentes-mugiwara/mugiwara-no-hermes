@@ -6,6 +6,14 @@ Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama
 
 ## [Unreleased]
 
+## [0.7.2] - 2026-05-09
+### Changed
+- `public-assets/diagrams/hermes-mugiwara-system-map.svg` reduce exposición contextual sustituyendo menciones al soporte físico concreto por formulaciones de entorno privado.
+- README actualiza la versión editorial a `v0.7.2`.
+
+### Security
+- La actualización mantiene el valor explicativo del mapa público sin publicar soporte físico, topología, hosts, rutas, wiring, credenciales, memoria viva ni detalle operativo reconstructivo.
+
 ## [0.7.1] - 2026-05-08
 ### Changed
 - `docs/system-vs-showcase.md`, `docs/deployment-status.md` y `docs/operations-safeguards.md` sustituyen referencias al soporte físico concreto por una formulación de entorno privado, manteniendo el valor público sin añadir detalle operativo.
