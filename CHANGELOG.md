@@ -6,6 +6,14 @@ Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama
 
 ## [Unreleased]
 
+## [0.7.3] - 2026-05-10
+### Changed
+- README y `docs/control-plane.md` alinean la descripción pública del Mugiwara Control Panel con su navegación actual: la portada se nombra como Inicio en vez de dashboard.
+- README actualiza la versión editorial a `v0.7.3`.
+
+### Security
+- El ajuste es editorial y de verdad de producto: no añade rutas privadas, hosts, configuración runtime, capturas nuevas, datos vivos ni detalle operativo reconstructivo.
+
 ## [0.7.2] - 2026-05-09
 ### Changed
 - `public-assets/diagrams/hermes-mugiwara-system-map.svg` reduce exposición contextual sustituyendo menciones al soporte físico concreto por formulaciones de entorno privado.

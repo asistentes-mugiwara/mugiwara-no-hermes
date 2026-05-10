@@ -19,7 +19,7 @@ A alto nivel, el control plane existe para ayudar a la tripulación a consultar 
 
 Su misión pública se puede resumir así:
 
-- dar una vista de estado del sistema desde un dashboard claro
+- dar una vista de estado del sistema desde una portada de Inicio clara
 - navegar perfiles Mugiwara y responsabilidades sin convertir roles en ruido
 - consultar skills, memoria y vault como capas separadas, no como un cajón desastre
 - observar healthchecks, repos Git y señales de uso sin publicar logs, dumps ni métricas crudas
@@ -81,7 +81,7 @@ La versión pública de ese estado se cuenta con brocha gruesa, porque el detall
 
 - la interfaz se consume desde un perímetro privado
 - la API queda detrás de una frontera interna, no como API pública abierta
-- las superficies de lectura priorizan dashboard, tripulación, memoria, vault, healthcheck, uso agregado y Git en modo controlado
+- las superficies de lectura priorizan la página de Inicio, tripulación, memoria, vault, healthcheck, uso agregado y Git en modo controlado
 - las escrituras siguen restringidas a capacidades explícitas y revisadas
 - los estados degradados se muestran como degradados, no como telemetría mágica
 

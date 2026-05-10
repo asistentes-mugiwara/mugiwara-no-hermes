@@ -110,7 +110,7 @@ Créditos y enlaces: [`docs/stack-and-credits.md`](docs/stack-and-credits.md).
 
 El escaparate cuenta el mapa; el **[Mugiwara Control Panel](https://github.com/asistentes-mugiwara/mugiwara-control-panel)** enseña una pieza navegable del barco.
 
-Es una consola privada para observar Mugiwara/Hermes con prudencia: dashboard, tripulación, skills, memoria, vault, healthchecks, repos Git y uso agregado. Su README incluye **capturas reales revisadas** para mostrar la experiencia visual sin publicar secretos, credenciales ni configuración operativa.
+Es una consola privada para observar Mugiwara/Hermes con prudencia: Inicio, tripulación, skills, memoria, vault, healthchecks, repos Git y uso agregado. Su README incluye **capturas reales revisadas** para mostrar la experiencia visual sin publicar secretos, credenciales ni configuración operativa.
 
 La frontera es deliberada:
 
@@ -141,7 +141,7 @@ Si quieres ver esa frontera mejor dibujada, lee [`docs/system-vs-showcase.md`](d
 - mantenimiento editorial: `usopp`
 - política de publicación: `deny-by-default`
 - estilo editorial: épica técnica con humor Mugiwara y emojis con cabeza ⚔️
-- versión editorial actual: `v0.7.2`
+- versión editorial actual: `v0.7.3`
 
 ## 🤝 Contribuir
 
