@@ -75,7 +75,7 @@ Sin entrar en detalle sensible, hay verificaciones sobre cosas como:
 - disponibilidad de gateways
 - salud de capas críticas
 - backup reciente
-- señales básicas del host
+- señales básicas del entorno privado
 - errores globales
 
 La idea no es montar una nave espacial de observabilidad, sino detectar pronto si algo deja de flotar.
@@ -90,7 +90,7 @@ La safeguard importante no es “tener una consola bonita”. Es que esa consola
 - interfaz dentro de perímetro privado, no superficie abierta
 - API tras frontera interna, no endpoint público genérico
 - lectura controlada antes que escritura peligrosa
-- allowlists antes que exploración libre del host
+- allowlists antes que exploración libre del entorno
 - estados degradados honestos antes que telemetría fingida
 - nada de logs, dumps, secretos ni rutas sensibles en la capa pública
 

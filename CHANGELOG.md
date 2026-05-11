@@ -5,6 +5,11 @@ Todos los cambios relevantes del escaparate público se documentan aquí.
 Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama pirate-friendly sí. 🏴‍☠️
 
 ## [Unreleased]
+### Changed
+- `docs/system-vs-showcase.md` y `docs/operations-safeguards.md` reducen lenguaje contextual sobre soporte local/host y lo sustituyen por formulaciones de entorno privado.
+
+### Security
+- La poda baja exposición operativa sin perder valor explicativo: no añade hosts, rutas, puertos, configuración runtime ni detalle reconstructivo.
 
 ## [0.7.3] - 2026-05-10
 ### Changed

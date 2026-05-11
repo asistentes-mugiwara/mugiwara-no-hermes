@@ -20,7 +20,7 @@ El sistema real incluye, entre otras capas:
 - automatizaciones recurrentes
 - healthchecks
 - backups
-- runtime local
+- runtime privado
 - servicios y wiring que no tiene sentido publicar tal cual
 
 Es una máquina viva, no una colección de markdowns simpáticos.
