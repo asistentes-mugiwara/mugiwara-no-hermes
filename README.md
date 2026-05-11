@@ -141,7 +141,7 @@ Si quieres ver esa frontera mejor dibujada, lee [`docs/system-vs-showcase.md`](d
 - mantenimiento editorial: `usopp`
 - política de publicación: `deny-by-default`
 - estilo editorial: épica técnica con humor Mugiwara y emojis con cabeza ⚔️
-- versión editorial actual: `v0.7.3`
+- versión editorial actual: `v0.7.4`
 
 ## 🤝 Contribuir
 
