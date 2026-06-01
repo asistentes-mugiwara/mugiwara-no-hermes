@@ -93,18 +93,17 @@ A nivel público, la señal útil es esta:
 ### Automatización recurrente
 También hay automatización viva en la infraestructura privada para tareas como:
 
-- sincronización del vault
-- backup nocturno local
-- subida offsite del backup
-- health check periódico del sistema
-- revisión editorial nocturna del repo público
+- sincronización y mantenimiento de canon
+- continuidad operativa verificada
+- observabilidad periódica del sistema
+- revisión editorial recurrente del repo público
 
 ### Safeguards operativos
 No todo es “que arranque”. También existen controles ligeros para verificar:
 
-- gateways activos
-- salud de la capa de memoria compartida
-- backup reciente con checksum
+- disponibilidad de capacidades críticas
+- salud de capas compartidas
+- continuidad operativa reciente
 - estado general del sistema
 - errores globales y señales básicas de presión operativa
 

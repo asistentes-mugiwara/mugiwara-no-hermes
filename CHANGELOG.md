@@ -6,6 +6,14 @@ Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama
 
 ## [Unreleased]
 
+## [0.7.5] - 2026-06-01
+### Changed
+- `docs/deployment-status.md`, `docs/operations-safeguards.md`, `docs/workflow-model.md` y el mapa público sustituyen detalles operativos de continuidad, checks y automatización por formulaciones más abstractas.
+- README actualiza la versión editorial a `v0.7.5`.
+
+### Security
+- La poda reduce exposición sobre forma de backups, automatizaciones y verificaciones sin perder la idea pública: hay continuidad, observabilidad y revisión, pero no se publica el pipeline reconstructivo.
+
 ## [0.7.4] - 2026-05-11
 ### Changed
 - `docs/system-vs-showcase.md` y `docs/operations-safeguards.md` reducen lenguaje contextual sobre soporte local/host y lo sustituyen por formulaciones de entorno privado.

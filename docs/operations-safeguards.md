@@ -101,10 +101,10 @@ Más contexto público:
 
 También hay una capa de continuidad operativa:
 
-- backup local recurrente
-- checksum del artefacto
-- copia offsite
+- rutinas privadas de respaldo y recuperación
+- verificación de integridad a nivel de política, no de detalle operativo
 - cobertura de piezas importantes del sistema
+- señales de continuidad revisables sin publicar el pipeline real
 
 No publicamos el wiring exacto de ese pipeline, pero sí el hecho importante: **la continuidad no depende de cruzar los dedos**.
 

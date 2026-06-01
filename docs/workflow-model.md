@@ -75,7 +75,7 @@ La regla pública saneada es:
 
 La idea no es añadir teatro: es evitar que una misma espada corte, juzgue y selle la cubierta cuando hay riesgo real. ⚔️
 
-En cambios triviales o puramente documentales de bajo riesgo, Zoro puede cerrar con verify local y revisión editorial propia si la política del repo lo permite.
+En cambios triviales o puramente documentales de bajo riesgo, Zoro puede cerrar con verify propio y revisión editorial propia si la política del repo lo permite.
 
 ### 8. Publicar o cortar
 Si pasa el filtro, se publica.
