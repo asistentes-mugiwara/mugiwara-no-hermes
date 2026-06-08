@@ -41,6 +41,20 @@ Haz esta revisión rápida:
 - prioriza claridad sobre fanservice
 - si una broma empeora la explicación, bórrala sin pena
 
+## 🧪 Cómo preparar una PR útil
+
+Para que una contribución llegue a puerto sin marear a media tripulación:
+
+1. **Explica el valor público**: qué entiende mejor el lector después del cambio.
+2. **Declara el perímetro**: README, docs, ejemplo dummy, changelog o política.
+3. **Cuenta el saneado aplicado**: qué detalle real se ha omitido, abstraído o convertido en ejemplo.
+4. **Enlaza la política relevante** si el cambio toca publicación o seguridad:
+   - [`docs/publishing-policy.md`](docs/publishing-policy.md)
+   - [`SECURITY.md`](SECURITY.md)
+5. **Mantén el diff pequeño y revisable**: si mezcla narrativa, arquitectura y seguridad, separa el viaje en etapas.
+
+Una buena PR aquí no demuestra que sabes mucho del sistema privado. Demuestra que sabes explicar lo justo sin abrir la bodega.
+
 ## 🏴‍☠️ Regla editorial
 
 Queremos que el repo se sienta Mugiwara:

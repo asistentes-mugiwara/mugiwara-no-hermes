@@ -5,6 +5,11 @@ Todos los cambios relevantes del escaparate público se documentan aquí.
 Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama pirate-friendly sí. 🏴‍☠️
 
 ## [Unreleased]
+### Changed
+- `CONTRIBUTING.md` añade una guía breve para preparar PRs útiles: valor público, perímetro documental, saneado aplicado, políticas relevantes y diffs revisables.
+
+### Security
+- La guía refuerza el criterio de exposición mínima para contribuciones: explicar lo justo, enlazar política de publicación/seguridad y evitar que las PRs demuestren conocimiento privado innecesario.
 
 ## [0.7.5] - 2026-06-01
 ### Changed
