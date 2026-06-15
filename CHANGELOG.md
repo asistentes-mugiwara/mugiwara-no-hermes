@@ -5,6 +5,9 @@ Todos los cambios relevantes del escaparate público se documentan aquí.
 Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama pirate-friendly sí. 🏴‍☠️
 
 ## [Unreleased]
+- Sin cambios pendientes.
+
+## [0.7.6] - 2026-06-15
 ### Changed
 - `CONTRIBUTING.md` añade una guía breve para preparar PRs útiles: valor público, perímetro documental, saneado aplicado, políticas relevantes y diffs revisables.
 
