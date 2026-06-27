@@ -5,7 +5,11 @@ Todos los cambios relevantes del escaparate público se documentan aquí.
 Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama pirate-friendly sí. 🏴‍☠️
 
 ## [Unreleased]
-- Sin cambios pendientes.
+### Added
+- README y `docs/stack-and-credits.md` incorporan **CodeGraph** como herramienta pública de exploración estructural de código usada para entender arquitectura, dependencias y puntos de impacto.
+
+### Security
+- La mención se limita al rol público de análisis técnico: no publica índices locales, wiring de herramientas, cachés privadas, rutas, configuración runtime ni detalle reconstructivo del sistema.
 
 ## [0.7.6] - 2026-06-15
 ### Changed

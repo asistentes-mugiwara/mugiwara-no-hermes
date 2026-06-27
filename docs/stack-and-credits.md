@@ -33,6 +33,13 @@ Aquí cumple el papel de astillero conceptual y operativo sobre el que se afina 
 
 - Repo original: [Gentleman-Programming/gentle-ai](https://github.com/Gentleman-Programming/gentle-ai)
 
+### CodeGraph
+**Rol en el sistema:** exploración estructural de código para entender arquitectura, dependencias y puntos de impacto antes de tocar una base software.
+
+En la representación pública se trata como ayuda de análisis técnico: acelera la lectura de repos y sostiene mejores decisiones de Zoro, sin convertir índices locales, wiring de herramientas ni cachés privadas en material publicable.
+
+- Repo original: [colbymchenry/codegraph](https://github.com/colbymchenry/codegraph)
+
 ### Engram
 **Rol en el sistema:** memoria viva técnica por proyecto.
 
@@ -97,6 +104,9 @@ Esa separación es parte de la gracia del modelo: menos caos, menos mezcla y má
 
 ### [Gentleman-Programming/gentle-ai](https://github.com/Gentleman-Programming/gentle-ai)
 Agradecimiento explícito al trabajo detrás de **gentle-ai**, por aportar marco, primitives y enfoque para construir sistemas multiagente con más estructura y menos humo.
+
+### [colbymchenry/codegraph](https://github.com/colbymchenry/codegraph)
+Agradecimiento a **CodeGraph** como herramienta de exploración estructural de código: útil para que la lectura técnica sea menos arqueología a ciegas y más mapa antes de navegar.
 
 ### [anomalyco/opencode](https://github.com/anomalyco/opencode)
 Agradecimiento a **OpenCode** como pieza importante del runtime software multiagente que hace viable parte de la operativa técnica de Zoro.

@@ -97,6 +97,7 @@ La explicación pública se apoya en estas capas:
 - **Hermes** → runtime base y orquestación
 - **OpenCode** → referencia histórica e influencia operativa para flujos software de Zoro
 - **gentle-ai** → framework, assets y enfoque SDD que inspira la disciplina de fases
+- **CodeGraph** → exploración estructural de código para entender arquitectura y dependencias sin publicar índices privados
 - **Engram** → memoria técnica viva por proyecto
 - **Honcho** → memoria relacional compartida
 - **Vault** → canon duradero y curado
