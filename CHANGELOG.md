@@ -8,8 +8,12 @@ Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama
 ### Added
 - README y `docs/stack-and-credits.md` incorporan **CodeGraph** como herramienta pública de exploración estructural de código usada para entender arquitectura, dependencias y puntos de impacto.
 
+### Changed
+- `docs/stack-and-credits.md` afina el crédito a **OpenCode** para describirlo como referencia histórica e influencia operativa, no como pieza reconstructiva del runtime vivo.
+
 ### Security
 - La mención se limita al rol público de análisis técnico: no publica índices locales, wiring de herramientas, cachés privadas, rutas, configuración runtime ni detalle reconstructivo del sistema.
+- El ajuste sobre OpenCode refuerza la frontera editorial entre aprendizaje operativo público e implementación privada: evita sugerir componentes vivos o wiring interno no publicable.
 
 ## [0.7.6] - 2026-06-15
 ### Changed

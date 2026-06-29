@@ -109,7 +109,7 @@ Agradecimiento explícito al trabajo detrás de **gentle-ai**, por aportar marco
 Agradecimiento a **CodeGraph** como herramienta de exploración estructural de código: útil para que la lectura técnica sea menos arqueología a ciegas y más mapa antes de navegar.
 
 ### [anomalyco/opencode](https://github.com/anomalyco/opencode)
-Agradecimiento a **OpenCode** como pieza importante del runtime software multiagente que hace viable parte de la operativa técnica de Zoro.
+Agradecimiento a **OpenCode** como referencia histórica e influencia operativa en la forma de trabajar software de Zoro: estructura, disciplina y aprendizaje aplicado sin convertir esa historia en mapa del runtime vivo.
 
 ### [Gentleman-Programming/engram](https://github.com/Gentleman-Programming/engram)
 Agradecimiento por la idea y la pieza de **memoria viva por proyecto**, clave para que un sistema especializado no acabe confundiendo continuidad técnica con canon definitivo.
