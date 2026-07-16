@@ -29,6 +29,7 @@ Si subes a esta cubierta, vienes a entender:
 - cómo evitar que “multiagente” signifique “el mismo bot con diez sombreros”
 - cómo repartir responsabilidad entre agentes con dominios reales
 - cómo ordenar capas de memoria sin mezclar conversación, proyecto y canon
+- cómo federar conocimiento externo sin convertirlo en instrucciones ni canon automático
 - cómo publicar documentación técnica sin filtrar superficie sensible
 - cómo combinar criterio técnico, gobierno editorial y una voz reconocible
 
@@ -59,6 +60,7 @@ Regla práctica:
 - [`docs/operations-model.md`](docs/operations-model.md) → quién custodia cada tipo de decisión pública
 - [`docs/workflow-model.md`](docs/workflow-model.md) → cómo se decide, sanea, verifica y publica
 - [`docs/sdd-model.md`](docs/sdd-model.md) → cómo Zoro convierte cambios software en spec, diseño, TDD y verify
+- [`docs/knowledge-federation.md`](docs/knowledge-federation.md) → cómo revisar conocimiento externo sin ceder autoridad ni ejecutar contenido
 - [`docs/autonomy-model.md`](docs/autonomy-model.md) → qué puede decidir cada custodia de dominio
 - [`docs/publishing-policy.md`](docs/publishing-policy.md) → qué puede zarpar y qué se queda en puerto
 - [`SECURITY.md`](SECURITY.md) → cómo reportar exposición o riesgo
@@ -142,7 +144,7 @@ Si quieres ver esa frontera mejor dibujada, lee [`docs/system-vs-showcase.md`](d
 - mantenimiento editorial: `usopp`
 - política de publicación: `deny-by-default`
 - estilo editorial: épica técnica con humor Mugiwara y emojis con cabeza ⚔️
-- versión editorial actual: `v0.7.6`
+- versión editorial actual: `v0.8.0`
 
 ## 🤝 Contribuir
 

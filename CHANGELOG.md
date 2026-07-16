@@ -5,15 +5,21 @@ Todos los cambios relevantes del escaparate público se documentan aquí.
 Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama pirate-friendly sí. 🏴‍☠️
 
 ## [Unreleased]
+
+## [0.8.0] - 2026-07-16
 ### Added
 - README y `docs/stack-and-credits.md` incorporan **CodeGraph** como herramienta pública de exploración estructural de código usada para entender arquitectura, dependencias y puntos de impacto.
+- Nuevo `docs/knowledge-federation.md` para explicar un modelo seguro de intercambio documental entre cánones independientes: peer de solo lectura, revisión incremental, promoción local curada, procedencia y regla antibucle.
+- README enlaza el nuevo modelo desde el mapa de lectura y actualiza la versión editorial a `v0.8.0`.
 
 ### Changed
 - `docs/stack-and-credits.md` afina el crédito a **OpenCode** para describirlo como referencia histórica e influencia operativa, no como pieza reconstructiva del runtime vivo.
+- `docs-check` protege también el documento de federación documental.
 
 ### Security
 - La mención se limita al rol público de análisis técnico: no publica índices locales, wiring de herramientas, cachés privadas, rutas, configuración runtime ni detalle reconstructivo del sistema.
 - El ajuste sobre OpenCode refuerza la frontera editorial entre aprendizaje operativo público e implementación privada: evita sugerir componentes vivos o wiring interno no publicable.
+- La federación se publica solo como patrón arquitectónico: no revela repositorios privados, rutas, hosts, credenciales, horarios, jobs, checkpoints, prompts, contenido intercambiado ni pipeline reconstructivo.
 
 ## [0.7.6] - 2026-06-15
 ### Changed
