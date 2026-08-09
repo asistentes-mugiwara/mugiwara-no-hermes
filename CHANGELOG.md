@@ -6,6 +6,12 @@ Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama
 
 ## [Unreleased]
 
+### Changed
+- `docs/sdd-model.md` aclara que verify es un gate independiente y no mutante: inspecciona y ejecuta controles sin corregir el candidato, y repite la evidencia si una comprobación altera el estado evaluado.
+
+### Security
+- La aclaración publica solo un principio de integridad del proceso; no expone runners, entornos, comandos, rutas, perfiles ni wiring interno de verificación.
+
 ## [0.8.0] - 2026-07-16
 ### Added
 - README y `docs/stack-and-credits.md` incorporan **CodeGraph** como herramienta pública de exploración estructural de código usada para entender arquitectura, dependencias y puntos de impacto.

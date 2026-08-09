@@ -36,6 +36,16 @@ En versión pública, el principio es:
 
 Zoro puede blandir la espada, pero el verify decide si el corte fue limpio. ⚔️
 
+## 🔍 Verify sin mover la diana
+
+La verificación es un gate independiente, no una segunda fase de implementación:
+
+- observa el candidato y ejecuta controles, pero no lo corrige ni lo modifica;
+- si una comprobación altera inesperadamente el estado evaluado, esa evidencia no cuenta hasta recuperar un estado limpio y repetir el gate;
+- los hallazgos vuelven a implementación como trabajo explícito, nunca como arreglos silenciosos durante el verify.
+
+Así el resultado demuestra qué se revisó realmente, en vez de aprobar una diana que se movió mientras apuntábamos.
+
 ## 🧑‍⚖️ Revisión adversarial cuando hay riesgo
 
 Para cambios de software significativos, el modelo contempla revisión adversarial: dos miradas independientes revisan criterios similares y Zoro sintetiza coincidencias, sospechas y bloqueos.
