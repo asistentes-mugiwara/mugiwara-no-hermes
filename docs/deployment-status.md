@@ -2,13 +2,13 @@
 
 ## Idea central
 
-`Mugiwara no Hermes` no es solo una idea bonita con sombrero de paja. En el entorno privado ya hay una parte del sistema **realmente montada**.
+`Mugiwara no Hermes` documenta la arquitectura de un sistema privado sin usar este archivo como healthcheck ni inventario de procesos en ejecución.
 
 La gracia de este documento es separar tres cosas que conviene no mezclar:
 
 - lo que existe en el **canon Mugiwara**
 - lo que está **configurado**
-- lo que está **activo hoy de verdad**
+- lo que fue **observado y documentado** en evidencia revisada
 
 ## 🧭 Cómo leer este estado
 
@@ -16,10 +16,10 @@ En este repo usamos estas etiquetas conceptuales:
 
 - **Definido** → existe en canon, políticas o roster
 - **Configurado** → tiene perfil, memoria o runtime preparados
-- **Activo** → está desplegado y funcionando ahora mismo
-- **Estable** → además de estar activo, forma parte ya del baseline operativo
+- **Observado** → existe evidencia revisada de una ejecución, sin implicar actividad presente
+- **Estable documentado** → forma parte del baseline descrito, no de una comprobación en tiempo real
 
-## 👒 Tripulación: canon vs estado real
+## 👒 Tripulación: canon vs estado documentado
 
 ### Definidos en canon
 Toda la tripulación Mugiwara existe en la arquitectura oficial:
@@ -35,8 +35,8 @@ Toda la tripulación Mugiwara existe en la arquitectura oficial:
 - Brook
 - Jinbe
 
-### Activos hoy
-En el entorno privado, los perfiles activos y operativos hoy son:
+### Perfiles documentados
+La documentación base incluye perfiles separados para:
 
 - **Luffy**
 - **Zoro**
@@ -49,14 +49,14 @@ En el entorno privado, los perfiles activos y operativos hoy son:
 - **Sanji**
 - **Jinbe**
 
-No publicamos aquí el cableado fino de cada perfil. La señal pública útil es más simple: la tripulación canónica completa ya figura como activa, con responsabilidades separadas y límites de publicación claros.
+No publicamos aquí el cableado fino de cada perfil. La existencia de un perfil documentado no demuestra que exista un proceso, gateway o servicio ejecutándose ahora.
 
 ![Mapa público del sistema Hermes + Mugiwara](../public-assets/diagrams/hermes-mugiwara-system-map.svg)
 
-## ⚙️ Qué piezas del sistema están activas hoy
+## ⚙️ Piezas definidas, configuradas y observadas
 
-### Gateways persistentes por perfil
-Los agentes activos no dependen de un arranque manual improvisado. La nave ya usa **gateways persistentes por perfil** para:
+### Gateways por perfil
+El modelo documenta **gateways separados por perfil** para:
 
 - **Luffy**
 - **Zoro**
@@ -69,10 +69,10 @@ Los agentes activos no dependen de un arranque manual improvisado. La nave ya us
 - **Sanji**
 - **Jinbe**
 
-Eso significa que la capa conversacional está separada por perfil y se mantiene viva como servicio estable.
+Esta lista describe una separación de configuración; no certifica disponibilidad ni actividad actual de esos gateways.
 
 ### Memoria por capas
-El modelo de memoria no es solo teórico. Ya hay una separación real entre:
+El modelo documenta una separación entre:
 
 - **builtin memory** como fallback compacto
 - **Honcho** como memoria relacional compartida
@@ -91,7 +91,7 @@ A nivel público, la señal útil es esta:
 - el inventario vivo, las rutas internas y el wiring de carga no se publican
 
 ### Automatización recurrente
-También hay automatización viva en la infraestructura privada para tareas como:
+La arquitectura contempla automatización recurrente para tareas como:
 
 - sincronización y mantenimiento de canon
 - continuidad operativa verificada
@@ -99,7 +99,7 @@ También hay automatización viva en la infraestructura privada para tareas como
 - revisión editorial recurrente del repo público
 
 ### Safeguards operativos
-No todo es “que arranque”. También existen controles ligeros para verificar:
+El modelo incluye controles ligeros orientados a verificar:
 
 - disponibilidad de capacidades críticas
 - salud de capas compartidas
@@ -108,23 +108,23 @@ No todo es “que arranque”. También existen controles ligeros para verificar
 - errores globales y señales básicas de presión operativa
 
 ### Control plane privado
-Además del runtime conversacional, Mugiwara ya cuenta con un proyecto software separado para operar como **control plane privado**.
+Además del runtime conversacional descrito, Mugiwara cuenta con un proyecto software separado diseñado como **control plane privado**.
 
 La parte publicable es deliberadamente limitada:
 
 - existe un repo público de código saneado: [`mugiwara-control-panel`](https://github.com/asistentes-mugiwara/mugiwara-control-panel)
 - su objetivo es observabilidad, navegación y lectura controlada del sistema
-- su despliegue privado ya está operativo como consola interna, sin convertirlo en superficie pública abierta
+- la documentación no usa su captura ni su configuración como prueba de despliegue o disponibilidad actual
 - el wiring real, la configuración viva, los datos operativos y el acceso privado no se publican aquí
 
 Más contexto público:
 - [`docs/control-plane.md`](control-plane.md)
 
-## 🧱 Qué significa “activo” en este sistema
+## 🧱 Qué exigiría afirmar actividad
 
-En Mugiwara, un agente no pasa a considerarse activo solo porque exista un nombre o un doc.
+En Mugiwara, un agente no puede considerarse activo solo porque exista un nombre, perfil o documento.
 
-Normalmente, para considerarlo activo hacen falta varias piezas a la vez:
+Una afirmación temporal de actividad requeriría evidencia contemporánea de varias piezas a la vez:
 
 - perfil Hermes existente
 - contrato operativo claro
@@ -148,6 +148,6 @@ Este documento no publica:
 La conclusión correcta no es “todo detalle de Mugiwara debe publicarse”.
 La conclusión correcta es otra:
 
-> ya existe una base operativa real más amplia y estable en el entorno privado, con la tripulación canónica completa activa, pero la publicación pública sigue siendo deliberadamente progresiva y saneada.
+> existe una arquitectura privada documentada con la tripulación canónica completa y responsabilidades separadas; este repositorio no certifica su actividad actual y mantiene una publicación deliberadamente progresiva y saneada.
 
 Y eso, francamente, da más confianza que fingir que el barco entero ya está navegando a velocidad máxima. ⚓
