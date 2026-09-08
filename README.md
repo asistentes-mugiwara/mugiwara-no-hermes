@@ -4,6 +4,8 @@
 
 `Mugiwara no Hermes` es la capa pública curada de un sistema multiagente real construido sobre Hermes y el modelo Mugiwara de **[Pablo](https://github.com/Prodelaya)**.
 
+Puntos de entrada: [perfil público de Asistentes Mugiwara](https://github.com/asistentes-mugiwara) y [caso Mugiwara en el portfolio de Pablo Laya](https://prodelaya.dev/#case-mugi).
+
 No es el runtime vivo.<br>
 No es un dump de configuración.<br>
 No es una colección simpática de agentes con sombrero.
@@ -113,7 +115,7 @@ Créditos y enlaces: [`docs/stack-and-credits.md`](docs/stack-and-credits.md).
 
 El escaparate cuenta el mapa; el **[Mugiwara Control Panel](https://github.com/asistentes-mugiwara/mugiwara-control-panel)** enseña una pieza navegable del barco.
 
-Es una consola privada para observar Mugiwara/Hermes con prudencia: Inicio, tripulación, skills, memoria, vault, healthchecks, repos Git y uso agregado. Su README incluye **capturas reales revisadas** para mostrar la experiencia visual sin publicar secretos, credenciales ni configuración operativa.
+Es una consola privada para observar Mugiwara/Hermes con prudencia: Inicio, tripulación, skills, memoria, vault, healthchecks, repos Git y uso agregado. Su README incluye **capturas estáticas revisadas** para mostrar la experiencia visual sin publicar secretos, credenciales ni configuración operativa. Sus métricas y estados visibles no representan el estado actual del sistema.
 
 La frontera es deliberada:
 
@@ -131,20 +133,20 @@ Más contexto: [`docs/control-plane.md`](docs/control-plane.md).
 
 ## 🧱 Frontera sistema vivo vs escaparate
 
-El sistema real ejecuta agentes, mantiene memoria viva, opera servicios, gateways, automatizaciones y wiring privado.
+El diseño privado contempla agentes, memoria viva, servicios, gateways, automatizaciones y wiring no público. La documentación versionada no afirma qué procesos están ejecutándose en este momento.
 
 Este repo explica el modelo, documenta principios, ofrece ejemplos saneados y protege la operación real.
 
 Si quieres ver esa frontera mejor dibujada, lee [`docs/system-vs-showcase.md`](docs/system-vs-showcase.md).
 
-## 📌 Estado actual
+## 📌 Estado documentado
 
 - tipo: repositorio público escaparate
 - gobierno técnico: `zoro`
 - mantenimiento editorial: `usopp`
 - política de publicación: `deny-by-default`
 - estilo editorial: épica técnica con humor Mugiwara y emojis con cabeza ⚔️
-- versión editorial actual: `v0.8.0`
+- versión editorial documentada: `v0.8.0`
 
 ## 🤝 Contribuir
 
