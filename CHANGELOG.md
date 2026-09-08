@@ -7,10 +7,13 @@ Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama
 ## [Unreleased]
 
 ### Changed
+- README enlaza el perfil público de Asistentes Mugiwara y el caso público del sistema, y deja claro que las capturas estáticas y sus métricas no acreditan estado operativo actual.
+- `docs/deployment-status.md` separa canon, configuración y evidencia observada, evitando presentar documentación versionada como healthcheck en tiempo real.
 - `docs/sdd-model.md` aclara que verify es un gate independiente y no mutante: inspecciona y ejecuta controles sin corregir el candidato, y repite la evidencia si una comprobación altera el estado evaluado.
 
 ### Security
-- La aclaración publica solo un principio de integridad del proceso; no expone runners, entornos, comandos, rutas, perfiles ni wiring interno de verificación.
+- La actualización de presentación reduce afirmaciones temporales no verificables y mantiene fuera del escaparate procesos, disponibilidad, configuración viva y wiring privado.
+- La aclaración de SDD publica solo un principio de integridad del proceso; no expone runners, entornos, comandos, rutas, perfiles ni wiring interno de verificación.
 
 ## [0.8.0] - 2026-07-16
 ### Added
