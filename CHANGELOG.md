@@ -6,6 +6,8 @@ Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama
 
 ## [Unreleased]
 
+## [0.8.1] - 2026-09-14
+
 ### Changed
 - README enlaza el perfil público de Asistentes Mugiwara y el caso público del sistema, y deja claro que las capturas estáticas y sus métricas no acreditan estado operativo actual.
 - `docs/deployment-status.md` separa canon, configuración y evidencia observada, evitando presentar documentación versionada como healthcheck en tiempo real.
