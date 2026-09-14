@@ -26,6 +26,16 @@ Cuando el trabajo cae en un dominio claro, entra la tripulación adecuada:
 
 Aquí lo importante no es enseñar el runtime interno completo, sino dejar claro que **la responsabilidad se delega con criterio y dueño reconocible**.
 
+Una delegación útil no es «pásaselo a otro agente». Su contrato público mínimo deja visibles:
+
+- el objetivo y el motivo de la delegación
+- el contexto y las entradas necesarias
+- el alcance, las restricciones y los criterios de terminado
+- el formato de respuesta esperado
+- la regla de escalado cuando falta información o aparece riesgo fuera del dominio
+
+Así la especialización se puede auditar por responsabilidades y resultados, sin publicar prompts, rutas ni mecanismos internos de coordinación.
+
 ### 3. Clasificar valor y riesgo
 Antes de tocar nada, se pregunta:
 

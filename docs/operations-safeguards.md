@@ -15,7 +15,7 @@ La regla es:
 
 ## 1. Separación por perfil
 
-Los agentes activos funcionan como perfiles separados, no como una masa borrosa que cambia de sombrero según convenga.
+El modelo separa los agentes por perfiles, en vez de tratarlos como una masa borrosa que cambia de sombrero según convenga.
 
 Eso permite:
 
@@ -24,15 +24,17 @@ Eso permite:
 - runtime más ordenado
 - menor confusión entre responsabilidades
 
-## 2. Gateways persistentes
+## 2. Gateways por perfil
 
-La capa conversacional de los perfiles activos no depende de arrancar manualmente cada vez.
+La arquitectura documentada contempla una capa conversacional separada por perfil.
 
 A nivel público, lo importante es esto:
 
-- los perfiles activos tienen **gateway persistente por perfil**
-- la disponibilidad del agente no depende de una sesión abierta a mano
-- el sistema puede vigilar mejor qué está vivo y qué no
+- cada perfil conserva una frontera conversacional reconocible
+- la continuidad no se confunde con una sesión manual concreta
+- la disponibilidad puede observarse sin mezclar responsabilidades
+
+Este principio describe el baseline del sistema; no certifica qué gateways están disponibles en este momento.
 
 ## 3. Memoria por capas
 
@@ -68,7 +70,7 @@ Así el sistema puede reutilizar conocimiento operativo sin convertir el escapar
 
 ## 5. Healthchecks ligeros
 
-El sistema ya usa comprobaciones periódicas para evitar una operativa “a ojo”.
+El modelo contempla comprobaciones periódicas para evitar una operativa “a ojo”.
 
 Sin entrar en detalle sensible, hay verificaciones sobre cosas como:
 
@@ -86,7 +88,7 @@ Mugiwara también cuenta con un proyecto de control plane privado para observabi
 
 La safeguard importante no es “tener una consola bonita”. Es que esa consola se diseñe con frontera clara:
 
-- código público saneado, despliegue privado operativo
+- código público saneado, despliegue privado
 - interfaz dentro de perímetro privado, no superficie abierta
 - API tras frontera interna, no endpoint público genérico
 - lectura controlada antes que escritura peligrosa

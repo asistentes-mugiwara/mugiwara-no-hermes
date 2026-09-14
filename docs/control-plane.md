@@ -73,20 +73,20 @@ La relación sana entre ambos es esta:
 
 El README del control panel funciona ahora como pequeña cubierta de producto: describe la consola con más energía, enlaza este escaparate y muestra capturas reales revisadas de sus páginas principales. Esas imágenes sirven para enseñar dirección visual, navegación y composición en un corte concreto, manteniendo fuera secretos, credenciales y configuración operativa.
 
-## Estado público actual
+## Madurez documentada
 
-El control plane ya no es solo una pieza planificada o un repo de código: tiene un **despliegue privado operativo** para observabilidad y navegación interna.
+El baseline público documenta el control plane como una pieza software destinada a observabilidad y navegación interna, con código público y despliegue privado.
 
-La versión pública de ese estado se cuenta con brocha gruesa, porque el detalle fino pertenece al sistema vivo:
+Su diseño se cuenta con brocha gruesa, porque el detalle fino pertenece al sistema vivo:
 
-- la interfaz se consume desde un perímetro privado
-- la API queda detrás de una frontera interna, no como API pública abierta
+- la interfaz se plantea para un perímetro privado
+- la API se sitúa tras una frontera interna, no como API pública abierta
 - las superficies de lectura priorizan la página de Inicio, tripulación, memoria, vault, healthcheck, uso agregado y Git en modo controlado
-- las escrituras siguen restringidas a capacidades explícitas y revisadas
-- los estados degradados se muestran como degradados, no como telemetría mágica
+- las escrituras se restringen a capacidades explícitas y revisadas
+- los estados degradados deben mostrarse como degradados, no como telemetría mágica
 
 La señal importante para el escaparate es esta:
 
-> Mugiwara ya está pasando de “agentes bien definidos” a “sistema observable y gobernable”, sin abandonar la regla de no publicar más de la cuenta.
+> Mugiwara documenta el paso de “agentes bien definidos” a “sistema observable y gobernable”, sin convertir este repo en una certificación de disponibilidad actual.
 
 Eso es un avance de madurez, no una invitación a abrir la bodega. 🛡️
