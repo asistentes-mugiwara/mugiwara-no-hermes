@@ -36,18 +36,7 @@ Toda la tripulación Mugiwara existe en la arquitectura oficial:
 - Jinbe
 
 ### Perfiles documentados
-La documentación base incluye perfiles separados para:
-
-- **Luffy**
-- **Zoro**
-- **Franky**
-- **Nami**
-- **Usopp**
-- **Robin**
-- **Chopper**
-- **Brook**
-- **Sanji**
-- **Jinbe**
+La documentación base trata a cada integrante canónico como un perfil separado. El roster nominal y sus responsabilidades viven en [`docs/crew-roster.md`](crew-roster.md), para no convertir este estado en una segunda lista de tripulantes.
 
 No publicamos aquí el cableado fino de cada perfil. La existencia de un perfil documentado no demuestra que exista un proceso, gateway o servicio ejecutándose ahora.
 
@@ -56,20 +45,7 @@ No publicamos aquí el cableado fino de cada perfil. La existencia de un perfil 
 ## ⚙️ Piezas definidas, configuradas y observadas
 
 ### Gateways por perfil
-El modelo documenta **gateways separados por perfil** para:
-
-- **Luffy**
-- **Zoro**
-- **Franky**
-- **Nami**
-- **Usopp**
-- **Robin**
-- **Chopper**
-- **Brook**
-- **Sanji**
-- **Jinbe**
-
-Esta lista describe una separación de configuración; no certifica disponibilidad ni actividad actual de esos gateways.
+El baseline documentado separa la capa conversacional por perfil. Ese principio describe aislamiento de configuración; no publica un inventario operativo ni certifica disponibilidad o actividad actual de los gateways.
 
 ### Memoria por capas
 El modelo documenta una separación entre:

@@ -115,7 +115,7 @@ Créditos y enlaces: [`docs/stack-and-credits.md`](docs/stack-and-credits.md).
 
 El escaparate cuenta el mapa; el **[Mugiwara Control Panel](https://github.com/asistentes-mugiwara/mugiwara-control-panel)** enseña una pieza navegable del barco.
 
-Es una consola privada para observar Mugiwara/Hermes con prudencia: Inicio, tripulación, skills, memoria, vault, healthchecks, repos Git y uso agregado. Su README incluye **capturas estáticas revisadas** para mostrar la experiencia visual sin publicar secretos, credenciales ni configuración operativa. Sus métricas y estados visibles no representan el estado actual del sistema.
+Es una consola privada para observar Mugiwara/Hermes con prudencia: Inicio, tripulación, skills, memoria, vault, healthchecks, repos Git y uso agregado. Su README incluye **capturas reales revisadas en un corte concreto** para mostrar la experiencia visual sin publicar secretos, credenciales ni configuración operativa. Sus métricas y estados visibles no representan el estado actual del sistema.
 
 La frontera es deliberada:
 

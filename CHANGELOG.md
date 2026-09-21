@@ -6,6 +6,14 @@ Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama
 
 ## [Unreleased]
 
+### Changed
+- README describe las capturas del Control Panel como capturas reales revisadas en un corte concreto, en línea con el proyecto hermano y sin presentarlas como estado actual.
+- `docs/deployment-status.md` elimina inventarios nominales repetidos y concentra el estado público en principios de perfiles y aislamiento, con el roster como referencia canónica.
+- `docs/stack-and-credits.md` evita convertir el baseline del Control Panel en una afirmación temporal sobre disponibilidad.
+
+### Security
+- La poda conserva el valor explicativo del escaparate y reduce huella operativa, sin añadir configuración viva, wiring, rutas, hosts ni estado de ejecución.
+
 ## [0.8.1] - 2026-09-14
 
 ### Changed

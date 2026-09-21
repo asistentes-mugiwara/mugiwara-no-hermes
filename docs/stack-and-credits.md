@@ -76,7 +76,7 @@ La versión pública explica fases y criterios de calidad; no publica prompts in
 ### Mugiwara Control Panel
 **Rol en el sistema:** proyecto hermano para observabilidad y navegación privada de Mugiwara/Hermes.
 
-Su código público ayuda a enseñar arquitectura y gobierno. Su despliegue privado ya opera como consola interna, pero configuración viva, datos operativos y acceso real siguen fuera del escaparate.
+Su código público ayuda a enseñar arquitectura y gobierno. La documentación lo presenta como un control plane real sin usar ese baseline para certificar disponibilidad actual; configuración viva, datos operativos y acceso real siguen fuera del escaparate.
 
 - Repo público: [asistentes-mugiwara/mugiwara-control-panel](https://github.com/asistentes-mugiwara/mugiwara-control-panel)
 - Modelo público: [`docs/control-plane.md`](control-plane.md)
