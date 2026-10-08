@@ -22,21 +22,10 @@ En este repo usamos estas etiquetas conceptuales:
 ## 👒 Tripulación: canon vs estado documentado
 
 ### Definidos en canon
-Toda la tripulación Mugiwara existe en la arquitectura oficial:
-
-- Luffy
-- Zoro
-- Franky
-- Nami
-- Usopp
-- Robin
-- Sanji
-- Chopper
-- Brook
-- Jinbe
+La tripulación canónica y el reparto de responsabilidades se presentan en [`docs/crew-roster.md`](crew-roster.md). Este documento se centra en cómo interpretar su estado público, no en mantener una segunda lista de integrantes.
 
 ### Perfiles documentados
-La documentación base trata a cada integrante canónico como un perfil separado. El roster nominal y sus responsabilidades viven en [`docs/crew-roster.md`](crew-roster.md), para no convertir este estado en una segunda lista de tripulantes.
+La documentación base trata a cada integrante canónico como un perfil separado.
 
 No publicamos aquí el cableado fino de cada perfil. La existencia de un perfil documentado no demuestra que exista un proceso, gateway o servicio ejecutándose ahora.
 
