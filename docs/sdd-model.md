@@ -1,92 +1,45 @@
-# ⚔️ Spec-Driven Development Model
+# ⚔️ Entrega software guiada por resultados
 
 ## Qué explica este documento
 
-Mugiwara no Hermes no trata el software como una carrera de “pídele algo al bot y cruza los dedos”.
+En el dominio de Zoro, la entrega empieza por el **resultado pedido**, los requisitos reales y la evidencia disponible. Después se diseña lo necesario, se implementa con pruebas cuando cambia el comportamiento y se verifica el bloque funcional completo antes de darlo por cerrado.
 
-En el dominio de Zoro, el sistema trabaja con un modelo público de **Spec-Driven Development**: primero se entiende el cambio, luego se diseña, después se implementa con pruebas y finalmente se verifica contra lo prometido.
+El nombre histórico de este archivo conserva el enlace a nuestro modelo SDD anterior. La secuencia formal de exploración, propuesta, spec, diseño, tareas, aplicación, verify y archivo sigue siendo una herramienta posible, **no una obligación para cada cambio**.
 
-Este documento cuenta la idea sin publicar prompts internos, nombres de perfiles runtime, rutas privadas ni wiring operativo.
+Este documento cuenta la disciplina pública sin revelar prompts, perfiles, rutas ni mecanismos internos.
 
 ## 🧭 La ruta pública
 
-El ciclo público se puede leer así:
+1. **Entender el resultado** — aclarar alcance, restricciones y criterios verificables sin abrir fases por inercia.
+2. **Diseñar lo necesario** — elegir el cambio funcional más pequeño; usar especificaciones o tareas formales cuando el riesgo o el proyecto lo requieran.
+3. **Implementar y probar** — para comportamiento nuevo, observar un fallo causal antes de corregirlo y comprobar que la solución pasa; para documentación, revisar el texto y su estructura.
+4. **Verificar** — contrastar el resultado completo con los requisitos y los checks aplicables. La revisión independiente se añade cuando el riesgo lo pide, no por el número de ficheros.
+5. **Dejar continuidad** — registrar decisiones y evidencias proporcionadas para poder retomar el trabajo, sin convertir el registro en el producto.
 
-1. **Explorar** — reducir incertidumbre antes de prometer una solución.
-2. **Proponer** — formular intención, alcance y tradeoffs.
-3. **Especificar** — convertir la idea en requisitos y escenarios verificables.
-4. **Diseñar** — decidir arquitectura, límites y estrategia de pruebas.
-5. **Trocear tareas** — hacer el trabajo implementable y revisable.
-6. **Aplicar con TDD** — cambiar código siguiendo red, green y refactor cuando toca.
-7. **Verificar** — contrastar implementación contra spec, diseño y tareas.
-8. **Archivar** — dejar trazabilidad y continuidad para la siguiente navegación.
+El límite de tamaño de una revisión ayuda a leer un cambio; no justifica inventar arquitectura, infraestructura ni entregas artificiales. El mapa sirve al viaje, no al revés. 🗺️
 
-No es una coreografía decorativa. Es una forma de evitar que la velocidad aparente sustituya al criterio técnico.
+## 🧪 Evidencia antes que relato
 
-## 🧪 TDD como guardarraíl
+- Los cambios de comportamiento necesitan pruebas o comprobaciones proporcionadas y resultados observados, no una explicación convincente.
+- Un fallo esperado se identifica antes de corregirlo; no se fabrica un fallo para comportamiento ya demostrado.
+- Cuando no cabe una prueba automatizada razonable, se declara la comprobación manual y lo que queda sin verificar.
+- Un resultado sin evidencia suficiente se comunica como parcial o bloqueado, no como aprobado.
 
-La implementación debe dejar evidencia real, no solo una explicación convincente.
+## 🔍 Verificar sin mover la diana
 
-En versión pública, el principio es:
+Verificar no sustituye implementar ni equivale a publicar. Se evalúa el candidato conocido frente al resultado pedido y las restricciones; si una comprobación cambia el estado evaluado, hay que recuperar un estado limpio y repetir la evidencia afectada. Los hallazgos vuelven como trabajo explícito, nunca como correcciones silenciosas que hagan pasar otra versión.
 
-- si el cambio toca comportamiento, debe tener una prueba o verificación proporcionada;
-- si una prueba falla por una razón esperada, se documenta antes de corregir;
-- si no hay prueba automatizada razonable, se deja un smoke o revisión manual explícita;
-- si falta evidencia, el cambio no se da por cerrado.
+La comprobación independiente, de solo lectura cuando corresponda, escala con el riesgo. Una revisión adversarial con dos miradas independientes se reserva para los casos que la requieren; tampoco autoriza por sí sola un commit o una release.
 
-Zoro puede blandir la espada, pero el verify decide si el corte fue limpio. ⚔️
+## 🧱 Frontera pública
 
-## 🔍 Verify sin mover la diana
-
-La verificación es un gate independiente, no una segunda fase de implementación:
-
-- observa el candidato y ejecuta controles, pero no lo corrige ni lo modifica;
-- si una comprobación altera inesperadamente el estado evaluado, esa evidencia no cuenta hasta recuperar un estado limpio y repetir el gate;
-- los hallazgos vuelven a implementación como trabajo explícito, nunca como arreglos silenciosos durante el verify.
-
-Así el resultado demuestra qué se revisó realmente, en vez de aprobar una diana que se movió mientras apuntábamos.
-
-## 🧑‍⚖️ Revisión adversarial cuando hay riesgo
-
-Para cambios de software significativos, el modelo contempla revisión adversarial: dos miradas independientes revisan criterios similares y Zoro sintetiza coincidencias, sospechas y bloqueos.
-
-La versión pública no necesita saber cómo se invoca eso por dentro. Lo importante es el patrón:
-
-- revisión read-only cuando el riesgo lo pide;
-- criterios compartidos;
-- síntesis explícita de hallazgos;
-- bloqueo si la evidencia no basta.
-
-## 🧱 Qué se publica y qué no
-
-### Sí se puede publicar
-
-- fases del ciclo a alto nivel;
-- criterios de calidad y verify;
-- relación entre specs, diseño, tareas y pruebas;
-- ejemplos dummy o documentos saneados;
-- decisiones editoriales y releases.
-
-### No se publica
-
-- prompts internos;
-- nombres o configuración de perfiles runtime;
-- rutas del host o mecanismos de carga;
-- logs de ejecución reales;
-- memoria viva de proyecto;
-- comandos privados, endpoints, tokens o wiring reconstructivo.
+Sí contamos el criterio de diseño, pruebas, verificación, revisión proporcionada y continuidad. No publicamos perfiles o prompts internos, rutas del entorno privado, logs, memoria viva, comandos, configuración ni wiring operativo. Las specs y fases siguen teniendo sitio cuando aportan claridad real, pero este escaparate no prescribe un ritual universal.
 
 ## Relación con otros documentos
 
 - [`docs/workflow-model.md`](workflow-model.md) explica el flujo general de publicación y saneado.
 - [`docs/operations-model.md`](operations-model.md) explica custodia por dominio.
-- [`docs/stack-and-credits.md`](stack-and-credits.md) reconoce las piezas del stack que inspiran o sostienen este modelo.
+- [`docs/stack-and-credits.md`](stack-and-credits.md) reconoce las piezas del stack.
 - [`docs/publishing-policy.md`](publishing-policy.md) marca la frontera de seguridad editorial.
 
-## Cierre
-
-La promesa pública del SDD de Zoro es sencilla:
-
-> menos magia, más contrato; menos humo, más evidencia.
-
-Y si una parte del mapa ayuda más a reconstruir la sala de máquinas que a entender el viaje, no zarpa.
+> Menos ceremonia, más resultado verificable; menos humo, más evidencia.

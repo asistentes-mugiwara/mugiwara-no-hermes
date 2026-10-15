@@ -66,10 +66,10 @@ Aquí viven summaries, decisiones estables, playbooks y conocimiento compartible
 
 Las skills ayudan a que aprendizajes operativos, flujos probados y criterios específicos no dependan de la memoria improvisada de una sesión. El principio público es separar los espacios runtime privados del canon gobernado y promocionar capacidades solo tras revisión; el inventario vivo y los detalles internos de carga se quedan fuera.
 
-### SDD de Zoro
-**Rol en el sistema:** disciplina de entrega software basada en especificar antes de implementar, aplicar con TDD y verificar contra el contrato.
+### Entrega software de Zoro
+**Rol en el sistema:** disciplina guiada por resultado y riesgo: diseñar lo necesario, probar cambios de comportamiento y verificar contra el contrato. SDD sigue disponible cuando una especificación formal aporta valor.
 
-La versión pública explica fases y criterios de calidad; no publica prompts internos, perfiles runtime, rutas privadas ni comandos reconstructivos.
+La versión pública explica criterios de calidad sin imponer fases para cada tarea; no publica prompts internos, perfiles runtime, rutas privadas ni comandos reconstructivos.
 
 - Modelo público: [`docs/sdd-model.md`](sdd-model.md)
 

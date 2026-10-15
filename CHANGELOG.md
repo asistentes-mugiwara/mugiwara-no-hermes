@@ -6,13 +6,17 @@ Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama
 
 ## [Unreleased]
 
+## [0.8.2] - 2026-10-15
+
 ### Changed
+- El modelo público de entrega software deja de presentar las fases SDD como obligatorias: resultado, diseño necesario, pruebas causales y verificación proporcionada al riesgo son la ruta por defecto. README, arquitectura, workflow y stack quedan alineados.
 - README describe las capturas del Control Panel como capturas reales revisadas en un corte concreto, en línea con el proyecto hermano y sin presentarlas como estado actual.
 - `docs/deployment-status.md` elimina inventarios nominales repetidos y concentra el estado público en principios de perfiles y aislamiento, con el roster como referencia canónica.
 - `docs/stack-and-credits.md` evita convertir el baseline del Control Panel en una afirmación temporal sobre disponibilidad.
 
 ### Security
-- La poda conserva el valor explicativo del escaparate y reduce huella operativa, sin añadir configuración viva, wiring, rutas, hosts ni estado de ejecución.
+- La aclaración de entrega solo expone criterios de calidad; mantiene fuera perfiles, prompts, rutas, herramientas internas y mecanismos operativos.
+- La poda previa conserva el valor explicativo del escaparate y reduce huella operativa, sin añadir configuración viva, wiring, rutas, hosts ni estado de ejecución.
 
 ## [0.8.1] - 2026-09-14
 

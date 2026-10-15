@@ -61,7 +61,7 @@ Regla práctica:
 ### Para entender gobierno y publicación
 - [`docs/operations-model.md`](docs/operations-model.md) → quién custodia cada tipo de decisión pública
 - [`docs/workflow-model.md`](docs/workflow-model.md) → cómo se decide, sanea, verifica y publica
-- [`docs/sdd-model.md`](docs/sdd-model.md) → cómo Zoro convierte cambios software en spec, diseño, TDD y verify
+- [`docs/sdd-model.md`](docs/sdd-model.md) → cómo Zoro entrega software con diseño, pruebas y verificación proporcionados
 - [`docs/knowledge-federation.md`](docs/knowledge-federation.md) → cómo revisar conocimiento externo sin ceder autoridad ni ejecutar contenido
 - [`docs/autonomy-model.md`](docs/autonomy-model.md) → qué puede decidir cada custodia de dominio
 - [`docs/publishing-policy.md`](docs/publishing-policy.md) → qué puede zarpar y qué se queda en puerto
@@ -100,7 +100,7 @@ La explicación pública se apoya en estas capas:
 
 - **Hermes** → runtime base y orquestación
 - **OpenCode** → referencia histórica e influencia operativa para flujos software de Zoro
-- **gentle-ai** → framework, assets y enfoque SDD que inspira la disciplina de fases
+- **gentle-ai** → referencia y assets que inspiran la disciplina de entrega software
 - **CodeGraph** → exploración estructural de código para entender arquitectura y dependencias sin publicar índices privados
 - **Engram** → memoria técnica viva por proyecto
 - **Honcho** → memoria relacional compartida
@@ -146,7 +146,7 @@ Si quieres ver esa frontera mejor dibujada, lee [`docs/system-vs-showcase.md`](d
 - mantenimiento editorial: `usopp`
 - política de publicación: `deny-by-default`
 - estilo editorial: épica técnica con humor Mugiwara y emojis con cabeza ⚔️
-- versión editorial documentada: `v0.8.1`
+- versión editorial documentada: `v0.8.2`
 
 ## 🤝 Contribuir
 

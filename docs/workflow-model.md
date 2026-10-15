@@ -61,7 +61,7 @@ El cambio se refleja en la capa pública adecuada:
 - changelog si cambia el valor público del escaparate
 - release si hay salto narrativo/editorial claro
 
-Cuando el cambio es software, Zoro puede aplicar un ciclo SDD público: exploración, propuesta, spec, diseño, tareas, TDD, verify y archivo. El detalle seguro vive en [`docs/sdd-model.md`](sdd-model.md); el runtime interno no se publica.
+Cuando el cambio es software, Zoro parte del resultado y ajusta diseño, pruebas y verificación al riesgo. Puede usar un ciclo formal de specs y tareas cuando aporta valor, sin exigirlo para todo cambio. El modelo público vive en [`docs/sdd-model.md`](sdd-model.md); el runtime interno no se publica.
 
 ### 6. Verify
 Antes de publicar, el cambio debe pasar una verificación razonable.
