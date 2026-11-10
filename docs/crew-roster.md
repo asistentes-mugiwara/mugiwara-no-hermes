@@ -49,10 +49,10 @@ El resto de la tripulación también está activo, pero su valor aparece cuando 
 - estructura datos, métricas y señales cuantitativas
 - traduce ruido disperso en criterio útil para decidir
 
-### Sanji — compras, reservas y vigilancia práctica
-- rastrea opciones, precios, disponibilidad y condiciones antes de recomendar
-- vigila reservas, citas, caducidades y servicios con criterio operativo
-- propone acción útil sin comprar, contratar ni cancelar nada sin confirmación
+### Sanji — asistencia personal y seguimiento cotidiano
+- prepara decisiones y acciones útiles para agenda, compras, servicios, reservas y viajes
+- sigue los pendientes hasta un cierre verificable, sin confundir avisar con resolver
+- actúa dentro de los permisos concedidos y pide autorización concreta para decisiones con efectos externos sensibles
 
 ### Jinbe — legal, regulación y burocracia
 - interpreta normativa española, trámites, contratos y obligaciones administrativas

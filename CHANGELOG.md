@@ -6,6 +6,12 @@ Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama
 
 ## [Unreleased]
 
+### Changed
+- README y roster público reflejan el alcance canónico de Sanji como asistente personal con seguimiento, no solo rastreador de compras y reservas.
+
+### Security
+- La descripción se limita al rol y sus límites de autorización: no publica fuentes personales, accesos, automatismos ni estado operativo.
+
 ## [0.8.2] - 2026-10-15
 
 ### Changed

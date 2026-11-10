@@ -89,7 +89,7 @@ Mugiwara funciona con especialización real, no con skins intercambiables:
 - **Robin** → research e inteligencia
 - **Chopper** → ciberseguridad
 - **Brook** → datos y analítica
-- **Sanji** → compras, reservas, viajes y vigilancia práctica
+- **Sanji** → asistencia personal y seguimiento cotidiano, con especialidad en compras, reservas y viajes
 - **Jinbe** → legal, regulación y burocracia española
 
 Más detalle en [`docs/crew-roster.md`](docs/crew-roster.md).
