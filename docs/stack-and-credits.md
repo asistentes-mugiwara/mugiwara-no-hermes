@@ -94,11 +94,11 @@ Permiten gobernar cambios, revisar PRs, mantener releases y dejar claro qué ent
 | Capa | Sistemas y utilidades | Qué se puede verificar en público |
 |---|---|---|
 | Base de operación | **Ubuntu Server** como entorno Linux; **systemd** para supervisar servicios y programar comprobaciones; **Docker** para servicios en contenedores. | El [modelo de salvaguardas](operations-safeguards.md) explica qué se supervisa, sin certificar el estado actual de ningún servicio. |
-| Red privada | **Tailscale** como perímetro de acceso previsto para el panel. La red privada complementa las restricciones de la aplicación; no las sustituye. | El [modelo del panel](control-plane.md) explica la separación entre acceso privado, API y datos. |
+| Red privada | El panel se diseña para un perímetro privado que complementa las restricciones de la aplicación; no las sustituye. | El [modelo del panel](control-plane.md) explica la separación entre acceso privado, API y datos. |
 | Observabilidad | Productores de estado y comprobaciones de salud separan la fuente operativa de la representación que consume el panel. Backups y verificación de integridad se tratan como señales de continuidad, no como telemetría pública. | La [política de salvaguardas](operations-safeguards.md) explica el criterio operativo. |
 | Aplicación y verificación | **Next.js** (interfaz), **FastAPI** (API) y **TypeScript/Python** para aplicación, contratos y utilidades de verificación. | La [descripción pública del panel](control-plane.md) explica qué problema resuelve y qué queda fuera del escaparate. |
 
-Estas categorías describen el diseño documentado. No son un inventario de servicios activos ni instrucciones para desplegar el entorno privado. Referencias de terceros: [Ubuntu Server](https://ubuntu.com/server), [systemd](https://systemd.io/), [Docker](https://www.docker.com/), [Tailscale](https://tailscale.com/), [Next.js](https://nextjs.org/) y [FastAPI](https://fastapi.tiangolo.com/).
+Estas categorías describen el diseño documentado. No son un inventario de servicios activos ni instrucciones para desplegar el entorno privado. Referencias de terceros: [Ubuntu Server](https://ubuntu.com/server), [systemd](https://systemd.io/), [Docker](https://www.docker.com/), [Next.js](https://nextjs.org/) y [FastAPI](https://fastapi.tiangolo.com/).
 
 ## 🧠 Capas de memoria, en versión corta
 

@@ -6,11 +6,19 @@ Formato: pragmático, claro y sin drama innecesario. Bueno, con un poco de drama
 
 ## [Unreleased]
 
+## [0.9.0] - 2026-11-24
+
+### Added
+- El mapa del stack distingue la infraestructura, la observabilidad y la aplicación del panel, y enlaza lo que el lector puede comprobar en público.
+- La guía de arquitectura sigue una petición desde la coordinación hasta la verificación y la conservación selectiva, y explica cómo distinguir implementación, modelo documentado, contexto histórico y ejemplos.
+
 ### Changed
 - README y roster público reflejan el alcance canónico de Sanji como asistente personal con seguimiento, no solo rastreador de compras y reservas.
+- El roster describe responsabilidades, no actividad actual. La descripción del Control Panel se centra en lo que su código público permite estudiar: la navegación y los estados de la interfaz.
 
 ### Security
-- La descripción se limita al rol y sus límites de autorización: no publica fuentes personales, accesos, automatismos ni estado operativo.
+- El alcance de Sanji se describe sin publicar fuentes personales, accesos, automatismos ni estado operativo.
+- El mapa explica el principio de acceso privado al panel sin identificar la tecnología de su perímetro. Ni el código público ni los ejemplos acreditan disponibilidad actual.
 
 ## [0.8.2] - 2026-10-15
 
