@@ -1,59 +1,20 @@
-# 🧱 Architecture
+# 🧱 Arquitectura de Mugiwara
 
-## Vista de alto nivel
+Hermes es la capa de ejecución de agentes; Mugiwara define cómo se reparte el trabajo y cómo se conserva lo aprendido. La consola es una aplicación separada que consulta el estado del sistema. Este repositorio explica ese modelo: no contiene el runtime ni levanta la consola.
 
-La nave pública se entiende mejor si separas sus grandes piezas. No hace falta ver cada remache del casco para entender por qué flota.
+## De una petición a un resultado verificable
 
-### 1. Hermes runtime
-La capa de ejecución: perfiles, herramientas, automatización y superficie operativa donde viven los agentes.
+1. **Coordinar.** Cuando una petición cruza dominios, Luffy fija el objetivo y deriva el trabajo al especialista adecuado con alcance, restricciones y criterio de cierre. El rol describe una responsabilidad; el perfil es su configuración de ejecución. Ninguno demuestra por sí solo que haya un proceso o servicio activo. Véanse el [contrato de delegación](workflow-model.md#2-delegación-a-especialistas) y los [estados documentados](deployment-status.md).
+2. **Ejecutar y verificar.** El especialista trabaja en Hermes con las herramientas autorizadas para la tarea. Una skill recoge un procedimiento reutilizable, no concede permisos adicionales. En software, por ejemplo, CodeGraph ayuda a estudiar el impacto antes de cambiar código; la evidencia del resultado viene de la [verificación](sdd-model.md), no de haber cargado una herramienta o seguido una fase.
+3. **Conservar solo lo que corresponda.** El resultado vuelve a quien coordina o pidió el trabajo. Si hace falta continuidad, el tipo de información determina su destino: respaldo de perfil, contexto relacional, continuidad técnica de proyecto o canon curado para decisiones duraderas. Son capas con fines distintos, no pasos obligatorios ni copias automáticas. Véase [memoria por capas](operations-safeguards.md#3-memoria-por-capas).
+4. **Observar por separado.** La consola sirve para consultar el estado; no dirige la delegación. Una vista de estado no demuestra que se haya atendido una petición concreta.
 
-### 2. Tripulación Mugiwara
-Los agentes especializados no son “skins” del mismo bot con distinto peinado. Cada uno tiene alcance, criterios y contrato operativo propios.
+## Cómo revisar el mapa sin acceso privado
 
-La arquitectura pública no necesita repetir aquí todo el roster. Lo importante es la regla de diseño:
-
-- **Luffy** marca rumbo y prioridad cuando el problema es transversal.
-- **Zoro**, **Franky**, **Usopp**, **Chopper** y el resto entran por dominio, no por turno decorativo.
-- cada agente debe tener un perímetro reconocible, una forma de verificar su trabajo y límites claros sobre lo que no debe publicar.
-
-El reparto completo vive en [`docs/crew-roster.md`](crew-roster.md).
-
-### 3. Canon compartido
-El vault curado actúa como historia oficial del barco: decisiones estables, summaries y conocimiento reutilizable.
-
-### 4. Memoria por capas
-No toda memoria merece el mismo destino. El modelo separa:
-
-- memoria compacta de perfil
-- memoria relacional compartida
-- memoria técnica viva por proyecto
-- canon duradero en vault
-
-### 5. Capa de escaparate público
-Este repositorio vive por encima del sistema real como una capa editorial filtrada.
-No es un espejo; es una versión gobernada, segura y pensada para enseñar sin regalar munición.
-
-### 6. Entrega software de Zoro
-En el dominio software, Zoro parte del resultado y el riesgo: diseña lo necesario, prueba los cambios de comportamiento y verifica el bloque completo. Las fases y specs formales son herramientas disponibles, no un ritual obligatorio.
-
-La arquitectura pública solo enseña el patrón de gobierno y calidad. Los perfiles runtime, prompts internos, comandos concretos, rutas y wiring operativo se quedan fuera de cubierta.
-
-Más contexto en [`docs/sdd-model.md`](sdd-model.md).
-
-## ⚙️ Principios de diseño
-
-- **especialización sobre generalismo**
-- **delegación explícita sobre improvisación borrosa**
-- **verify sobre storytelling vacío**
-- **canon curado sobre dump bruto**
-- **publicación segura sobre exhibicionismo técnico**
-
-## 🧭 Regla de lectura
-
-Si una pieza parece demasiado abstracta, piensa esto:
-
-- el sistema real es más rico que este repo
-- este repo es más seguro que el sistema real
-- y esa diferencia es intencional, no una carencia
-
-En Grand Line no enseñas el mapa completo si quieres seguir flotando. 🗺️
+| Tipo de evidencia | Dónde mirar y qué permite concluir |
+| --- | --- |
+| **Implementado** | La [página del control plane](control-plane.md) documenta la consola como pieza software separada y distingue el código público del uso privado. Es una referencia sobre qué se ha construido, no una prueba de despliegue ni de disponibilidad actual. |
+| **Modelo documentado** | El [roster](crew-roster.md) describe responsabilidades y el [estado documentado](deployment-status.md) distingue entre lo definido, lo configurado y lo observado. El modelo no acredita actividad actual. |
+| **Histórico** | OpenCode es una influencia en la práctica de entrega software. El nombre `sdd-model.md` conserva esa historia; las fases formales son una opción, no un requisito del runtime ni de cada cambio. |
+| **Ejemplo** | El ejemplo sintético [`public-demo-config.yaml`](../examples/public-demo-config.yaml) ilustra el reparto de roles y la política de publicación. No configura un despliegue de Hermes. |
+| **Privado** | La configuración efectiva, los datos vivos, las fuentes operativas y el acceso al panel quedan fuera. Una captura, un ejemplo o un valor de fallback no sustituyen evidencia de ejecución. Véase [sistema frente a escaparate](system-vs-showcase.md). |
