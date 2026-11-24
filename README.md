@@ -109,13 +109,13 @@ La explicación pública se apoya en estas capas:
 - **[Control Panel](https://github.com/asistentes-mugiwara/mugiwara-control-panel)** → consola privada de observabilidad y navegación, con código público saneado
 - **Git + GitHub** → trazabilidad, revisión y publicación
 
-Créditos y enlaces: [`docs/stack-and-credits.md`](docs/stack-and-credits.md).
+El [mapa de stack y créditos](docs/stack-and-credits.md) separa el runtime y la memoria de la infraestructura Linux, la observabilidad y el stack del panel. Indica qué se puede verificar en público y qué pertenece al entorno privado.
 
 ## 🕹️ Proyecto hermano: Mugiwara Control Panel
 
 El escaparate cuenta el mapa; el **[Mugiwara Control Panel](https://github.com/asistentes-mugiwara/mugiwara-control-panel)** enseña una pieza navegable del barco.
 
-Es una consola privada para observar Mugiwara/Hermes con prudencia: Inicio, tripulación, skills, memoria, vault, healthchecks, repos Git y uso agregado. Su README incluye **capturas reales revisadas en un corte concreto** para mostrar la experiencia visual sin publicar secretos, credenciales ni configuración operativa. Sus métricas y estados visibles no representan el estado actual del sistema.
+Es una consola privada de navegación y observabilidad para Mugiwara/Hermes: Inicio, tripulación, skills, memoria, vault, healthchecks, repos Git y uso agregado. Su código público permite estudiar el diseño de la interfaz y sus estados; no proporciona acceso al entorno privado ni acredita su disponibilidad actual.
 
 La frontera es deliberada:
 
